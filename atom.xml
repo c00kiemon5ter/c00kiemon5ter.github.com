@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>c00kiemon5ter's masterplan</title>
+ <link href="http://c00kiemon5ter.github.com/atom.xml" rel="self"/>
+ <link href="http://c00kiemon5ter.github.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://c00kiemon5ter.github.com/</id>
+ <author>
+   <name>c00kiemon5ter</name>
+   <email>&#105;&#118;&#097;&#110;&#046;&#107;&#097;&#110;&#097;&#107;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://c00kiemon5ter.github.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://c00kiemon5ter.github.com{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+ 
+</feed>
