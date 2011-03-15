@@ -15,19 +15,35 @@ girls, music and cookies. Most importantly, this is about cookies and their take
 
 How
 ---
-Based on the mighty [jekyll](https://github.com/mojombo/jekyll). [Toto](https://github.com/cloudhead/toto) was a nice 
-candidate but, it seems jekyll works best with [github pages](http://pages.github.com). 
-Another interesting alternative I may consider in the future is [fugitive](http://gitorious.org/fugitive).
+Based on the mighty [jekyll][jekyll]. [Toto][toto] was a nice 
+candidate but, it seems jekyll works best with [github pages][ghpages]. 
+Another interesting alternative I may consider in the future is [fugitive][fugitive].
+
+The whole site is static. Comments are handled through [disqus][disqus] and are enabled on demand. 
+Fonts are embedded through [typekit][typekit]. Feed is handled by [feedburner][feed].
+Posts are written in [markdown][mkdn].
 
 Who
 ---
-Design was inspired by [mojombo](http://tom.preston-werner.com) and [travis](http://combinate.us/) and freshly baked cookies.
+Design was inspired by [mojombo][tpw] and [travis][travis] and freshly baked cookies.
 
 Why
 ---
 cause cookies shall prevail! (plus this world needs some more bloat)
 
-![cookies](/files/images/cookiebomb.png)
+![cookies][cookiebomb]
 
 
 <p class="meta">o.look.a.cookie.i.will.do.science.to.it! -- 14 March 2011</p>
+
+[jekyll]: http://jekyllrb.com
+[toto]: http://cloudhead.io/toto
+[ghpages]: http://pages.github.com
+[fugitive]: http://gitorious.org/fugitive
+[disqus]: http://disqus.com
+[typekit]: http://typekit.com
+[feed]: http://feedburner.google.com
+[mkdn]: http://github.github.com/github-flavored-markdown/
+[tpw]: http://tom.preston-werner.com
+[travis]: http://combinate.us
+[cookiebomb]: /files/images/cookiebomb.png "cookiebomb!"
