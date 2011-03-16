@@ -49,7 +49,6 @@ a:hover {
 
 table {
     font-size: inherit;
-    font: 100%;
 }
 
 /*****************************************************************************/
@@ -110,7 +109,7 @@ div.leftnav li a img {
     height: 100%;
     border: none;
 }
-div.leftnav li a#top {
+div.leftnav li a#gotop {
     font-size: 0.5em;
     color: #999;
 }
@@ -121,13 +120,14 @@ div.leftnav li a#top {
 /*
 /*****************************************************************************/
 
-div#icons ul {
+div.icons ul {
+    margin-top: 1em;
     list-style-type: none;
 }
-div#icons ul li {
+div.icons ul li {
     display: inline;
 }
-div#icons ul li a img {
+div.icons ul li a img {
     width: 2em;
     height: 2em;
     border: none;
@@ -164,7 +164,6 @@ div#archive h1 {
 }
 ul.posts {
     list-style-type: none;
-    margin-botton: 2em;
 }
 ul.posts li {
     line-height: 1.50em;
