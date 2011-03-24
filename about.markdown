@@ -12,6 +12,7 @@ Networks
 <div class="icons">
 <ul>
 <li><a href="https://github.com/c00kiemon5ter"><img src="/images/octocat.png" title="github"/></a></li>
+<li><a href="https://identi.ca/c00kiemon5ter"><img src="/images/identica.png" title="identi"/></a></li>
 <li><a href="http://gr.linkedin.com/in/c00kiemon5ter"><img src="/images/linkedin.png" title="linkedin"/></a></li>
 <li><a href="https://facebook.com/c00kiemon5ter"><img src="/images/facebook.png" title="facebook"/></a></li>
 <li><a href="http://youtube.com/user/c0okiemon5ter"><img src="/images/youtube.png" title="youtube"/></a></li>
