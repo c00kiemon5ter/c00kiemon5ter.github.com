@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome
-category: fun
+comments: true
 ---
 
 c00kiemon5ter's masterplan
