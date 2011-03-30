@@ -147,10 +147,19 @@ div.content {
     padding-left: 3em;
 }
 div.content p.meta {
-    color: #999;
+    color: #666;
     text-align: right;
     font-style: italic;
     border-bottom: 1px solid #999;
+}
+div.content blockquote {
+    color: #666;
+    text-align: justify;
+    font-style: italic;
+    font-size: 95%;
+    border-left: 3px solid #ccc;
+    padding-left: 1em;
+    margin-left: 1em;
 }
 
 /*****************************************************************************/
