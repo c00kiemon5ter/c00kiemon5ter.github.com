@@ -6,25 +6,36 @@ category: music
 
 {{ page.title }}
 ================
+<p class="meta">last update ~ 31 March 2011</p>
 ..that is music. This is a list of artists I like and listen. 
-It's mostly post-rock, instrumentals, ambient, some trip-hop and hip-hop in no particular order of preference ..or maybe some order.
-The list will be updated regularly, so keep an eye for updates :)
+It's mostly post-rock, instrumentals, ambient, some trip-hop and hip-hop 
+in no particular order of preference <span style="text-decoration: line-through;">..or maybe some order</span>.
+phhffft, it's so hard, fak that.  
+The list will be updated regularly, so keep an eye for updates
 
 post-rock
 ---------
 [Mogwai](http://www.myspace.com/mogwai)  
-[As the stars fall](http://asthestarsfall.bandcamp.com/)  
-[65daysofstatic](http://www.myspace.com/65propaganda)  
-[The Evpatoria Report](http://the-evpatoria-report.bandcamp.com/)  
-[Jag fruktade att de hade ätit Morris](http://jagfruktadeattdehadeatitmorris.bandcamp.com/)  
-[Radiohead](http://www.myspace.com/radiohead)  
 [Godspeed You! Black Emperor](http://www.myspace.com/gybeconstellation)  
 [The Silver mt Zion](http://www.myspace.com/asilvermtzion)  
-[Aereogramme](http://www.myspace.com/aereogrammeofficial)  
-[Pirate Ship Quintet](http://www.myspace.com/thepirateshipquintet)  
-[Kovlo](http://kovlo.bandcamp.com/)  
-[Álfheimr](http://alfheimr.bandcamp.com/)  
+[As the stars fall](http://asthestarsfall.bandcamp.com/)  
+[65daysofstatic](http://www.myspace.com/65propaganda)  
+[All Angels Gone](http://www.myspace.com/allangelsgone)  
+[The Evpatoria Report](http://the-evpatoria-report.bandcamp.com/)  
 [Our ceasing voice](http://ourceasingvoice.bandcamp.com/)  
+[Red Sparowes](http://redsparowes.bandcamp.com/)  
+[Stars of the Lid](http://www.myspace.com/starsofthelid)  
+[Epic45](http://www.myspace.com/epic45)  
+[Helios](http://www.myspace.com/heliosmusic)  
+[Gordon's Tsunami Week](http://www.myspace.com/gordonstsunamiweek)  
+[Upcdowncleftcrightcabc+start](http://www.myspace.com/upcdownc)  
+[This Will Destroy You](http://www.myspace.com/thiswilldestroyyou)  
+[Álfheimr](http://alfheimr.bandcamp.com/)  
+[Jag fruktade att de hade ätit Morris](http://jagfruktadeattdehadeatitmorris.bandcamp.com/)  
+[Radiohead](http://www.myspace.com/radiohead)  
+[Pirate Ship Quintet](http://www.myspace.com/thepirateshipquintet)  
+[Aereogramme](http://www.myspace.com/aereogrammeofficial)  
+[Kovlo](http://kovlo.bandcamp.com/)  
 [Fèlperc](http://www.myspace.com/felperc)  
 [Explosions in the Sky](http://www.myspace.com/explosionsinthesky)  
 [Daturah](http://www.myspace.com/daturah)  
@@ -48,14 +59,10 @@ post-rock
 [Adolf Plays the Jazz](http://adolfplaysthejazz.bandcamp.com/)  
 [Yosebu](http://www.myspace.com/yosebu)  
 [The Files and Fires](http://thefilesandfires.bandcamp.com/)  
-
-[Red Sparowes](http://redsparowes.bandcamp.com/)  
-[Stars of the Lid](http://www.myspace.com/starsofthelid)  
-[Epic45](http://www.myspace.com/epic45)  
-[Helios](http://www.myspace.com/heliosmusic)  
-[Gordon's Tsunami Week](http://www.myspace.com/gordonstsunamiweek)  
-[Upcdowncleftcrightcabc+start](http://www.myspace.com/upcdownc)  
-[This Will Destroy You](http://www.myspace.com/thiswilldestroyyou)  
+[Thot](http://thot.bandcamp.com/track/obscured-by-the-wind)  
+[Riverside](http://www.youtube.com/watch?v=R8jeZrRuOlM)  
+[One hour before the trip](http://www.myspace.com/ohbtt)  
+[ioseb](http://www.myspace.com/ioseb)  
 [Balmorhea](http://www.myspace.com/balmorhea)  
 [Caspian](http://caspiantheband.bandcamp.com/)  
 [Kasabian](http://www.myspace.com/kasabian)  
@@ -74,6 +81,17 @@ post-rock
 [Lakes of Russia](http://www.myspace.com/lakesofrussia)  
 [A Swarm of the Sun](http://www.myspace.com/aswarmofthesun)  
 [Forgot Your Case](http://www.myspace.com/forgotyourcase)  
+[Monster Movie](http://www.myspace.com/monstermovie)  
+[Ana Never](http://www.myspace.com/ananever)  
+[Sleep makes Waves](http://sleepmakeswaves.bandcamp.com/)  
+[Have a nice life](http://www.myspace.com/haveanicelife)  
+[Powder! go away](http://www.myspace.com/562220910)  
+[Catacombe](http://www.myspace.com/catacombeband)  
+[Good luck with the Bombs](http://www.myspace.com/goodluckwiththebombs)  
+[GardenBox](http://www.myspace.com/gardenbox)  
+[These Portraits Never Spoke](http://www.myspace.com/theseportraitsneverspoke)  
+[Colour for a Rebel](http://colourforarebel.bandcamp.com/)  
+[Последние Каникулы (Last Holiday)](http://www.myspace.com/posledniekanikuly)  
 
 trip-hop
 --------
@@ -82,7 +100,7 @@ trip-hop
 [Bosques De Mi Mente](http://www.myspace.com/bosquesdemimente)  
 [Bachelors of Science](http://bachelorsofscience.bandcamp.com/)  
 [Red Snapper](http://www.myspace.com/redsnapperofficial)  
-[PortishHead](http://www.myspace.com/portisheadalbum3)  
+[Portishead](http://www.myspace.com/portisheadalbum3)  
 [Massive Attack](http://www.myspace.com/massiveattack)  
 [Bonobo](http://www.myspace.com/sibonobo)  
 
@@ -95,16 +113,18 @@ electronic
 [Faithless](http://www.myspace.com/faithless)  
 [Aphex Twin](http://www.myspace.com/aphextwins777)  
 [Royksopp](http://www.myspace.com/royksopp)  
+[Monoceros](http://monocerosblog.wordpress.com/downloads/)  
 
 hip-hop
 -------
-[Thomax](http://www.myspace.com/thomaxbeats)  
+[MC Xander](http://www.myspace.com/mcxande)  
 [Edi Casabella](http://www.myspace.com/edicasabella)  
+[Thomax](http://www.myspace.com/thomaxbeats)  
 [Sadistic](http://sadistik.bandcamp.com/)  
 [Sage Francis](http://www.myspace.com/sagefrancis)  
 [Jedi Mind Tricks](http://www.myspace.com/jedimindtricks)  
 [Talib Kweli](http://www.myspace.com/talibkweli)  
-[The Procussions](http://www.myspace.com/theprocussions)
+[The Procussions](http://www.myspace.com/theprocussions)  
 [Mr.J.Medeiros](http://www.myspace.com/mrjmedeiros)  
 [Army of the Pharaohs](http://www.myspace.com/armyofthepharaohs)  
 [Immortal Technique](http://www.myspace.com/immortaltechnique)  
@@ -133,6 +153,7 @@ rock
 
 metal hardcore
 --------------
+[Universe217](http://www.myspace.com/universe217)  
 [Anathema](http://www.myspace.com/weareanathema)  
 [Tool](http://www.myspace.com/tool)  
 [System of a Down](http://www.toolband.com/album/index.html)  
@@ -140,4 +161,4 @@ metal hardcore
 [Circle takes the Square](http://ctts.bandcamp.com/)  
 
 <p class="meta">people will forget what you said, people will forget what you did,<br />
-but people will never forget how you made them feel -- 15 March 2011</p>
+bt people will never forget how you made them feel -- 15 March 2011</p>
