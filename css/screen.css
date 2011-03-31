@@ -36,11 +36,10 @@ p {
 /* link styles */
 a:link {
     color: #003366;
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:visited {
     color: #ff3399;
-    text-decoration: none;
 }
 a:hover {
     color: #444;
@@ -59,10 +58,9 @@ table {
 
 div.ascii {
     display: block;
-    width: 20em;
     font-family: 'Bitstream Vera Sans Mono', "Courier New", monospace;
     font-size: 2em;
-    text-align: left;
+    white-space: nowrap;
     padding-top: 0.25em;
     padding-left: 0.25em;
 }
@@ -197,6 +195,11 @@ ul.posts span {
     background-color: #eef;
     padding: 0 .4em;
 }
+#post img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* code */
 #post code {
@@ -250,10 +253,19 @@ div#related h2 {
 
 div.footer {
     text-align: center;
-}
-div.footer a {
-    color: #003366;
-    text-decoration: none;
-    font-weight: bold;
     padding-bottom: 1em;
+}
+div.footer div.categories {
+    font-size: 95%;
+}
+div.footer a:link, div.footer a:visited {
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+}
+div.footer div.categories a:link {
+    font-weight: normal;
+}
+div.footer a:hover {
+    color: #444;
 }
