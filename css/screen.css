@@ -159,11 +159,6 @@ div.content blockquote {
     padding-left: 1em;
     margin-left: 1em;
 }
-div.content img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 /*****************************************************************************/
 /*
@@ -273,4 +268,16 @@ div.footer div.categories a:link {
 }
 div.footer a:hover {
     color: #444;
+}
+
+/*****************************************************************************/
+/*
+/* 404
+/*
+/*****************************************************************************/
+
+img.error {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
