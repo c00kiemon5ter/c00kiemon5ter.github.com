@@ -1,3 +1,12 @@
+---
+categories:
+    - id: foo
+      url: /foo.html
+    - id: music
+      url: /music.html
+    - id: society
+      url: /society.html
+---
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
     <head>
@@ -37,7 +46,9 @@
         <div class="footer">
             <a href="/">archive</a><br />
             <div class="categories">
-                { <a href="/society.html">society</a> , <a href="/music.html">music</a> , <a href="/foo.html">foo</a> }
+                .{% for category in page.categories %}
+                <a href="{{ category.url }}">{% if category.id == page.category %}> {% endif %}{{ category.id }}</a>
+                .{% endfor %}
             </div>
         </div>
 
