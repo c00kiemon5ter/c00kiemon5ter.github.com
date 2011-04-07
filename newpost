@@ -17,12 +17,16 @@ cat << _EOF_ > "$newpost"
 ---
 layout: post
 title: ${1//-/ }
+comments: false
+category: foo
 ---
 
 {{ page.title }}
 ================
 
+
+<p class="meta">-- {{ page.date | date_to_string }}</p>
 _EOF_
 
-${EDITOR:-/usr/bin/vim} + "$newpost"
+${EDITOR:-/usr/bin/vim} +10 "$newpost"
 

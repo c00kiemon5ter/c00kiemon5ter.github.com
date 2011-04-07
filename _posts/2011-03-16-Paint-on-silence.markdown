@@ -161,4 +161,4 @@ metal hardcore
 [Circle takes the Square](http://ctts.bandcamp.com/)  
 
 <p class="meta">people will forget what you said, people will forget what you did,<br />
-bt people will never forget how you made them feel -- 15 March 2011</p>
+bt people will never forget how you made them feel -- {{ page.date | date_to_string }}</p>

@@ -35,7 +35,7 @@ cause cookies shall prevail! (plus this world needs some more bloat)
 ![cookies][cookiebomb]
 
 
-<p class="meta">o.look.a.cookie.i.will.do.science.to.it! -- 14 March 2011</p>
+<p class="meta">o.look.a.cookie.i.will.do.science.to.it! -- {{ page.date | date_to_string }}</p>
 
 [jekyll]: http://jekyllrb.com
 [toto]: http://cloudhead.io/toto
