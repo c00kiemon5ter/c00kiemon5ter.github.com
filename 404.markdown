@@ -1,0 +1,5 @@
+---
+layout: default
+title: 404 cookies!
+---
+![404 cookies](/images/404cookies.png "404 cookies!"){:.error}
