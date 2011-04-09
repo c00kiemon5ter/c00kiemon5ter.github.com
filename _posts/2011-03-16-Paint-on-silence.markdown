@@ -6,7 +6,7 @@ category: music
 
 {{ page.title }}
 ================
-<p class="meta">last update ~ 31 March 2011</p>
+<p class="meta">last update ~ 09 Apr 2011</p>
 ..that is music. This is a list of artists I like and listen. 
 It's mostly post-rock, instrumentals, ambient, some trip-hop and hip-hop 
 in no particular order of preference <span style="text-decoration: line-through;">..or maybe some order</span>.
@@ -92,6 +92,7 @@ post-rock
 [These Portraits Never Spoke](http://www.myspace.com/theseportraitsneverspoke)  
 [Colour for a Rebel](http://colourforarebel.bandcamp.com/)  
 [Последние Каникулы (Last Holiday)](http://www.myspace.com/posledniekanikuly)  
+[kwoon](http://www.myspace.com/kwoonmusic)  
 
 trip-hop
 --------
@@ -103,6 +104,7 @@ trip-hop
 [Portishead](http://www.myspace.com/portisheadalbum3)  
 [Massive Attack](http://www.myspace.com/massiveattack)  
 [Bonobo](http://www.myspace.com/sibonobo)  
+[Saltillo](http://www.myspace.com/saltillo)  
 
 electronic
 ----------
