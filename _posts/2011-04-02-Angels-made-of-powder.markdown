@@ -31,7 +31,7 @@ on [youtube][powdertube].
 Ana Never
 ---------
 [Ana never][ana] is a 4 member band from Serbia. It features dark long sounds and lengthy tracks
-with little lyrics on the background (check *streetlights*). It almost feels like [GY!BE][]. 
+with little lyrics on the background (check *streetlights*). It almost feels like [GY!BE]. 
 
 Check them on [myspace][anaspace] and [lastfm][lastana]
 

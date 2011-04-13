@@ -2,11 +2,12 @@
 layout: post
 title: Paint on silence
 category: music
+update: 09 Apr 2011
 ---
 
 {{ page.title }}
 ================
-<p class="meta">last update ~ 09 Apr 2011</p>
+<p class="meta">last update ~ {{ page.update }}</p>
 ..that is music. This is a list of artists I like and listen. 
 It's mostly post-rock, instrumentals, ambient, some trip-hop and hip-hop 
 in no particular order of preference <span style="text-decoration: line-through;">..or maybe some order</span>.
