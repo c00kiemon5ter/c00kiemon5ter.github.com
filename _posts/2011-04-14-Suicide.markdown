@@ -1,0 +1,72 @@
+---
+layout: post
+title: Suicide
+comments: true
+categories: society music
+---
+
+{{ page.title }}
+================
+..so yeah, I met that guy today, he said he wanted to commit suicide. We talked for a while, 
+he was drunk, confused and almost crying. He said that girls didn't like him, that he didn't
+like his life as it was. I told him to think of the sea and the hot sand and that, that's what
+makes life nice, not money or girls or fancy cars. The smell of cookies, a fluffy cupcake, a 
+bicycle ride in a park, it's all about the little things. He kept saying he is a good guy, that 
+he never hurt anyone or talked bad, and that everyone kept making a fool of himself. He said he 
+was alone, that he lived in an apartment with his mother, the only person he had, near the new 
+mall that opened in that neighbourhood, and that the mall was destroying him. I told him that 
+whatever one does, he should do it because that feels right to him, because that makes him true 
+to himself even if it doesn't make him feel better every time. I told him that the opinion of 
+others doesn't matter, what matters is how one feels for himself, and if he's happy with it
+then others can go say whatever they can come up with. If you're right to yourself and know
+to appreciate moment and people for their being then there is no reason that words from should
+affect you. His mother (I believe) came out then, and called him in. I hope he remembers a
+thing or two about it tomorrow. 
+
+> Hide the petals underneath that bedroom floorboard  
+> and they will wither without fail or success.  
+> Put the people in the hollow box they crafted,  
+> bolt the doors and watch them perish.  
+> Its a cautious descent, so polite and pensive at first.  
+> But the only truth is change, have patience  
+> (every hundredth year, a single breath and then its over...)  
+> Even if only for a minute for a minute its over.  
+> Even if only for a minute.  
+> 
+> \- so how did it end? can you describe those final days?  
+> broken windows, and resting eyes.  
+> - can you tell us what happened here?  
+> they finally got sick of it all, they just gave up on accepting fate. that
+> was the loophole, they found the achilles heel and managed to strike it down.
+> at the feet of the ruins is a dormant structure. dormant but breathing,
+> still breathing. the wind sweeps through its hallways, echoing at the 
+> establishment of their caretakers. an exhaltation of cold premonition.  
+> - can you describe what took place?  
+> the shock, sounds from a hollow box. a corner to dive in. 
+> i touched their misery, he just went to sleep.
+> an exhalation of cold breath.  
+> - the kind of breath you could see?  
+> the shock, the terror. behold the riddle of the ruins. when 
+> a door is not a door. behold the riddle of the ruins, adore.  
+> - describe the feeling when you knew it all would end. in those final days.  
+> he gave up. behold a branch will continue to grow  
+> - how did it all end that night? last night, did they?  
+> fear, and a touch of their misery  
+> - and he just stopped breathing?  
+> it was a single lesson, he just layed down, sounds from a hollow box
+> just went to sleep. dormant, dormant but still breathing. took a final breath.
+> he just went to sleep and just stopped breathing. a single lesson will be taught 
+> we will all be taught. behold the final breath. when they knew it all would end.
+> still breathing and he just stopped. stopped breathing. we will all be taught, 
+> taught how to swallow bark.  
+> 
+> So brave in the face of all those roots that ruin,  
+> to stand so tall when in fact in ruins.  
+> To face that corner of the box and dive in,  
+> just the sound alone of its humble breath.  
+> A murmur from the ruins echoes softly as the roots undo, and the branch becomes...  
+
+<p class="meta" markdown="1">~ [Circle Takes the Square][ctts] :: [Interview at the Ruins][iatr] -- {{ page.date | date_to_string }}</p>
+
+[ctts]: http://ctts.bandcamp.com
+[iatr]: http://ctts.bandcamp.com/track/interview-at-the-ruins
