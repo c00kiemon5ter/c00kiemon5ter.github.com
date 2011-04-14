@@ -1,7 +1,7 @@
 ---
 layout: post
 title: In the beginning was the Command Line
-category: society
+categories: society code
 comments: true
 ---
 

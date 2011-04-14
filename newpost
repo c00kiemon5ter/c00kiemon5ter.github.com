@@ -18,7 +18,7 @@ cat << _EOF_ > "$newpost"
 layout: post
 title: ${1//-/ }
 comments: false
-category: foo
+categories: foo
 ---
 
 {{ page.title }}
