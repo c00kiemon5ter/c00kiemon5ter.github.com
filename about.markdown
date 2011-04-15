@@ -16,6 +16,7 @@ Networks
 * [![facebook](/images/facebook.png)][facebook]
 * [![youtube](/images/youtube.png)][youtube]
 * [![lastfm](/images/lastfm.png)][lastfm]
+* [![rstat.us](/images/rstatus.png)][rstatus]
 </div>
 
 Contact
@@ -39,6 +40,7 @@ Other Links
 [facebook]: https://facebook.com/c00kiemon5ter "facebook"
 [youtube]: http://youtube.com/user/c0okiemon5ter "youtube"
 [lastfm]: http://last.fm/user/koukosNest "lastfm"
+[rstatus]: http://rstat.us/users/c00kiemon5ter "rstat.us"
 [email]: &#109;&#x61;&#x69;&#108;&#x74;&#111;&#x3a;&#105;&#118;&#097;&#110;&#046;&#107;&#097;&#110;&#097;&#107;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109; "email"
 [pgpkey]: /files/c00kiemon5ter.pgp "pgp key"
 [foss]: http://foss.aueb.gr "foss aueb community"
