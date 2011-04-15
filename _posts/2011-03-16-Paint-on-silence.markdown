@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Paint on silence
-category: music
+categories: music
 update: 09 Apr 2011
 ---
 

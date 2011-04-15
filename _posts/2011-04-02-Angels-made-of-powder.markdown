@@ -2,7 +2,7 @@
 layout: post
 title: Angels made of powder
 comments: true
-category: music
+categories: music
 ---
 
 {{ page.title }}

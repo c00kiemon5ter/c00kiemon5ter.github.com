@@ -1,5 +1,5 @@
 ---
-categories:
+cats:
     - id: foo
       url: /foo/
     - id: music
@@ -48,8 +48,11 @@ categories:
         <div class="footer">
             <a href="/">archive</a><br />
             <div class="categories">
-                .{% for category in page.categories %}
-                <a href="{{ category.url }}">{% if category.id == page.category %}> {% endif %}{{ category.id }}</a>
+                .{% for cat in page.cats %}
+                {% if page.categories != nil and page.categories contains cat.id %}&gt;
+                {% elsif page.category != nil and page.category contains cat.id %}&gt;
+                {% endif %}
+                <a href="{{ cat.url }}">{{ cat.id }}</a>
                 .{% endfor %}
             </div>
         </div>

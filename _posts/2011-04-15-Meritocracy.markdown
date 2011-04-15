@@ -2,7 +2,7 @@
 layout: post
 title: Meritocracy
 comments: true
-category: society
+categories: society
 published: false
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Welcome
 comments: true
-category: foo
+categories: foo
 ---
 
 c00kiemon5ter's masterplan

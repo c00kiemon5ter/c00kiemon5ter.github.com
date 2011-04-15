@@ -2,7 +2,7 @@
 layout: post
 title: Blogging like Coding
 comments: true
-category: code
+categories: code
 ---
 
 {{ page.title }}

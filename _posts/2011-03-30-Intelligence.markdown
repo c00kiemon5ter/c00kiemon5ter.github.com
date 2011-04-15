@@ -2,7 +2,7 @@
 layout: post
 title: Intelligence
 comments: true
-category: society
+categories: society
 ---
 
 What Is Intelligence, Anyway?
