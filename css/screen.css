@@ -28,6 +28,7 @@ h1 {
 }
 h2 {
     border-bottom: 1px solid #40C1D8;
+    margin-bottom: 0.5em;
 }
 p {
     margin: 1em 0;

@@ -48,12 +48,13 @@ cats:
         <div class="footer">
             <a href="/">archive</a><br />
             <div class="categories">
+                <a href="/categories.html">@</a> {
                 .{% for cat in page.cats %}
                 {% if page.categories != nil and page.categories contains cat.id %}&gt;
                 {% elsif page.category != nil and page.category contains cat.id %}&gt;
                 {% endif %}
                 <a href="{{ cat.url }}">{{ cat.id }}</a>
-                .{% endfor %}
+                .{% endfor %} }
             </div>
         </div>
 
