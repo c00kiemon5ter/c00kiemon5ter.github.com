@@ -160,26 +160,24 @@ div.content blockquote {
     padding-left: 1em;
     margin-left: 1em;
 }
-
-/*****************************************************************************/
-/*
-/* Archive
-/*
-/*****************************************************************************/
-
-h1#archive {
+div.content h1#archive {
     margin-bottom: 1em;
 }
-ul.posts {
+div.content ul.posts {
     list-style-type: none;
 }
-ul.posts li {
+div.content ul.posts li {
     line-height: 1.50em;
 }
-ul.posts span {
+div.content ul.posts span {
     color: #999;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%
+}
+div.content img.error {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*****************************************************************************/
@@ -188,38 +186,38 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
-#post ul, #post ol {
+div#post ul, #post ol {
     margin-left: 1.35em;
 }
-#post pre {
+div#post pre {
     border: 1px solid #ddd;
     background-color: #eef;
     padding: 0 .4em;
 }
-#post img {
+div#post img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* code */
-#post code {
+div#post code {
     border: 1px solid #ddd;
     background-color: #eef;
     font-size: 85%;
     padding: 0 0.2em;
 }
-#post pre code {
+div#post pre code {
     border: none;
 }
 
 /* terminal */
-#post pre.terminal {
+div#post pre.terminal {
     border: 1px solid #222;
     background-color: #444;
     color: white;
 }
-#post pre.terminal code {
+div#post pre.terminal code {
     background-color: #444;
 }
 
@@ -230,19 +228,6 @@ ul.posts span {
 /*****************************************************************************/
 
 div#comments h2 {
-    margin-bottom: 1em;
-}
-
-/*****************************************************************************/
-/*
-/* Related
-/*
-/*****************************************************************************/
-
-div#related {
-    margin-top: 2em;
-}
-div#related h2 {
     margin-bottom: 1em;
 }
 
@@ -269,16 +254,4 @@ div.footer div.categories a:link {
 }
 div.footer a:hover {
     color: #444;
-}
-
-/*****************************************************************************/
-/*
-/* 404
-/*
-/*****************************************************************************/
-
-img.error {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
