@@ -14,8 +14,8 @@ cats:
 Archive :: categories {#archive}
 =====================
 {% for cat in page.cats %}
-{{ cat.id }}
-------------
+[{{ cat.id }}]({{ cat.url }}){:.category}
+-----------------------------
 {% for post in site.categories[cat.id] %}
 {:.posts} 
 * <span>{{ post.date | date_to_string }}</span> &#187; [{{ post.title }}]({{ post.url }})

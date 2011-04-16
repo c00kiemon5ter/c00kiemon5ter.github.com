@@ -179,6 +179,10 @@ div.content img.error {
     margin-left: auto;
     margin-right: auto;
 }
+div.content a.category {
+    color: #444;
+    text-decoration: none;
+}
 
 /*****************************************************************************/
 /*
@@ -186,6 +190,19 @@ div.content img.error {
 /*
 /*****************************************************************************/
 
+div#post a:link {
+    color: #003366;
+    border-bottom: #444 1px dotted;
+    text-decoration: none;
+}
+div#post a:visited {
+    color: #003366;
+    border-color: #ff3399;
+}
+div#post a:hover {
+    color: #003366;
+    border-bottom: #ff3399 2px solid;
+}
 div#post ul, #post ol {
     margin-left: 1.35em;
 }
