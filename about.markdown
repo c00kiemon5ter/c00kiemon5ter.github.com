@@ -29,6 +29,7 @@ Contact
 Other Links
 -----------
 <div class="icons" markdown="1">
+* [![webwiz](/images/webwiz.png)][webwiz]
 * [![foss-aueb](/images/foss-aueb.png)][foss]
 * [![piratebox](/images/piratebox.png)][piratebox]
 * [![deaddrops](/images/deaddrops.png)][deaddrops]
@@ -43,6 +44,7 @@ Other Links
 [rstatus]: http://rstat.us/users/c00kiemon5ter "rstat.us"
 [email]: &#109;&#x61;&#x69;&#108;&#x74;&#111;&#x3a;&#105;&#118;&#097;&#110;&#046;&#107;&#097;&#110;&#097;&#107;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109; "email"
 [pgpkey]: /files/c00kiemon5ter.pgp "pgp key"
+[webwiz]: http://webwizards.gr/ "web wizards"
 [foss]: http://foss.aueb.gr "foss aueb community"
 [piratebox]: http://wiki.daviddarts.com/PirateBox "piratebox"
 [deaddrops]: http://deaddrops.com/ "deaddrops"
