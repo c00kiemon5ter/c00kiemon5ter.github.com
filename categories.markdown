@@ -14,10 +14,10 @@ cats:
 Archive :: categories {#archive}
 =====================
 {% for cat in page.cats %}
-[{{ cat.id }}]({{ cat.url }}){:.category}
+[{{ cat.id }}]({{ cat.url }}){:.category} {#{{ cat.id }}}
 -----------------------------
 {% for post in site.categories[cat.id] %}
-{:.posts} 
+{:.posts}
 * <span>{{ post.date | date_to_string }}</span> &#187; [{{ post.title }}]({{ post.url }})
 {% endfor %}
 {% endfor %}
