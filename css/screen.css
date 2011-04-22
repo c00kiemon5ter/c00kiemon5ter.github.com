@@ -32,9 +32,11 @@ h2 {
 }
 h2:hover:after {
     content: "¶";
-    font: 80% "Courier New", monospace;
+    font: 75% "Courier New", monospace;
     color: #999;
-    padding-left: 0.5em;
+    padding-left: 0.75em;
+    position: relative;
+    top: -2px;
 }
 
 p {
