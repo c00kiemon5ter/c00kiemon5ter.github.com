@@ -31,11 +31,12 @@ h2 {
     margin-bottom: 0.5em;
 }
 h2:hover:after {
-    font-family: "Courier New", monospace;
-    color: #999;
     content: "¶";
+    font: 80% "Courier New", monospace;
+    color: #999;
     padding-left: 0.5em;
 }
+
 p {
     margin: 1em 0;
 }
@@ -65,8 +66,7 @@ table {
 
 div.ascii {
     display: block;
-    font-family: "Courier New", monospace;
-    font-size: 2em;
+    font: 2em "Courier New", monospace;
     white-space: nowrap;
     padding-top: 0.25em;
     padding-left: 0.25em;
@@ -83,8 +83,7 @@ div.ascii a {
 /*****************************************************************************/
 
 div.leftnav {
-    font-family: "Courier New", mono;
-    font-size: 2em;
+    font: 2em "Courier New", mono;
     position: fixed;
     width: 1.5em;
 }
@@ -177,8 +176,7 @@ div.content ul.posts li {
 }
 div.content ul.posts span {
     color: #999;
-    font-family: "Courier New", monospace;
-    font-size: 80%
+    font: 80% "Courier New", monospace;
 }
 div.content img.error {
     display: block;
