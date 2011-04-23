@@ -2,17 +2,20 @@
 layout: post
 title: Paint on silence
 categories: music
-update: 09 Apr 2011
+comments: true
+update: 24 Apr 2011
 ---
 
 {{ page.title }}
 ================
 <p class="meta">last update ~ {{ page.update }}</p>
-..that is music. This is a list of artists I like and listen. 
-It's mostly post-rock, instrumentals, ambient, some trip-hop and hip-hop 
+..that is music. This is a list of artists I like and listen.
+It's mostly post-rock, instrumentals, ambient, some trip-hop and hip-hop
 in no particular order of preference <span style="text-decoration: line-through;">..or maybe some order</span>.
-phhffft, it's so hard, fak that.  
-The list will be updated regularly, so keep an eye for updates
+phhffft, it's so hard, fak that.
+
+The list will be updated regularly, so keep an eye for updates.
+If you have any suggestions, just post a comment.
 
 post-rock
 ---------
@@ -120,11 +123,11 @@ electronic
 
 hip-hop
 -------
-[MC Xander](http://www.myspace.com/mcxande)  
-[Edi Casabella](http://www.myspace.com/edicasabella)  
 [Thomax](http://www.myspace.com/thomaxbeats)  
 [Sadistic](http://sadistik.bandcamp.com/)  
 [Sage Francis](http://www.myspace.com/sagefrancis)  
+[MC Xander](http://www.myspace.com/mcxande)  
+[Edi Casabella](http://www.myspace.com/edicasabella)  
 [Jedi Mind Tricks](http://www.myspace.com/jedimindtricks)  
 [Talib Kweli](http://www.myspace.com/talibkweli)  
 [The Procussions](http://www.myspace.com/theprocussions)  
@@ -137,7 +140,6 @@ hip-hop
 [birdy nam nam](http://www.myspace.com/birdynamnam)  
 [Dj Shadow](http://www.myspace.com/djshadow)  
 [Aesop Rock](http://www.myspace.com/aesoprockwins)  
-[Rage Against The Machine](http://www.myspace.com/ratm)  
 
 rock
 ----
@@ -156,6 +158,7 @@ rock
 
 metal hardcore
 --------------
+[Rage Against The Machine](http://www.myspace.com/ratm)  
 [Universe217](http://www.myspace.com/universe217)  
 [Anathema](http://www.myspace.com/weareanathema)  
 [Tool](http://www.myspace.com/tool)  
