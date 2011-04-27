@@ -3,7 +3,7 @@ layout: post
 title: Paint on silence
 categories: music
 comments: true
-update: 24 Apr 2011
+update: 27 Apr 2011
 ---
 
 {{ page.title }}
@@ -112,14 +112,15 @@ trip-hop
 
 electronic
 ----------
-[FuckButtons](http://www.myspace.com/fuckbuttons)  
+[TOKiMONSTA](http://www.myspace.com/tokibeats)  
 [Error Operator](http://soundcloud.com/erroropsmusic)  
+[Monoceros](http://monocerosblog.wordpress.com/downloads/)  
+[FuckButtons](http://www.myspace.com/fuckbuttons)  
+[Aphex Twin](http://www.myspace.com/aphextwins777)  
+[Royksopp](http://www.myspace.com/royksopp)  
 [Trentemoller](http://www.myspace.com/trentemoeller)  
 [Daft Punk](http://www.myspace.com/daftpunk)  
 [Faithless](http://www.myspace.com/faithless)  
-[Aphex Twin](http://www.myspace.com/aphextwins777)  
-[Royksopp](http://www.myspace.com/royksopp)  
-[Monoceros](http://monocerosblog.wordpress.com/downloads/)  
 
 hip-hop
 -------
