@@ -196,19 +196,21 @@ div.content a.category {
 /*
 /*********************************/
 
-div#post a:link {
+/* links */
+div#post a {
     color: #003366;
-    border-bottom: #444 1px dotted;
     text-decoration: none;
 }
+div#post a:link {
+    border-bottom: #444 1px dotted;
+}
 div#post a:visited {
-    color: #003366;
-    border-color: #ff3399;
+    border-bottom: #ff3399 1px dotted;
 }
 div#post a:hover {
-    color: #003366;
     border-bottom: #ff3399 2px solid;
 }
+
 div#post ul, #post ol {
     margin-left: 1.35em;
 }
