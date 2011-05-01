@@ -17,7 +17,7 @@ Archive :: categories {#archive}
 [{{ cat.id }}]({{ cat.url }}){:.category} {#{{ cat.id }}}
 -----------------------------
 {% for post in site.categories[cat.id] %}
-{:.posts}
 * <span>{{ post.date | date_to_string }}</span> &#187; [{{ post.title }}]({{ post.url }})
+{:.posts}
 {% endfor %}
 {% endfor %}
