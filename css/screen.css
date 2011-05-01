@@ -241,7 +241,7 @@ div.icons ul li a img {
 /*********************************/
 footer {
     text-align: center;
-    padding-bottom: 1em;
+    padding: 0 0 1em 3em;
     margin-bottom: 2em;
 }
 footer div.categories {
