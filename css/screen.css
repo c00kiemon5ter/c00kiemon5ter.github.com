@@ -15,9 +15,6 @@ body {
 p {
     margin: 1em auto 1em auto;
 }
-table {
-    font-size: inherit;
-}
 /* header styles */
 h1 {
     font-size: 150%;
@@ -48,6 +45,16 @@ a:visited {
 a:hover {
     color: #444;
     text-decoration: underline;
+}
+/* common classes */
+div.uline {
+    text-decoration: underline;
+}
+div.strike {
+    text-decoration: line-through;
+}
+table {
+    font-size: inherit;
 }
 
 /*********************************/
