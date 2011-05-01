@@ -1,48 +1,42 @@
-/*********************************/
-/*
-/* Common
-/*
-/*********************************/
-
 /* Global Reset */
 * {
+    font-size: 100%;
     margin: 0;
     padding: 0;
 }
 html, body {
     height: 100%;
 }
+
 body {
     background: url('/images/stripesbg.png') fixed;
     text-align: center;
 }
-
+p {
+    margin: 1em auto 1em auto;
+}
+table {
+    font-size: inherit;
+}
 /* header styles */
 h1 {
     font-size: 150%;
     color: #555;
     border-bottom: 2px solid #40C1D8;
-}
-h2, h3, h4, h5, h6 {
-    font-size: 100%;
+    margin: 1em auto .5em auto;
 }
 h2 {
     border-bottom: 1px solid #40C1D8;
-    margin-bottom: 0.5em;
+    margin: 1em auto .5em auto;
 }
 h2:hover:after {
     content: "¶";
     font: 75% "Courier New", monospace;
     color: #999;
-    padding-left: 0.75em;
+    padding-left: .75em;
     position: relative;
     top: -2px;
 }
-
-p {
-    margin: 1em 0;
-}
-
 /* link styles */
 a:link {
     color: #003366;
@@ -56,22 +50,14 @@ a:hover {
     text-decoration: underline;
 }
 
-table {
-    font-size: inherit;
-}
-
 /*********************************/
-/*
-/* header - ascii fish
-/*
+/* Page Header
 /*********************************/
-
 div.ascii {
-    display: block;
     font: 2em "Courier New", monospace;
     white-space: nowrap;
-    padding-top: 0.25em;
-    padding-left: 0.25em;
+    margin: auto auto 1.5em auto;
+    padding: .25em 0 0 1.5em;
 }
 div.ascii a {
     text-decoration: none;
@@ -79,11 +65,8 @@ div.ascii a {
 }
 
 /*********************************/
-/*
-/* left sidebar - leftnav
-/*
+/* Left Nav
 /*********************************/
-
 div.leftnav {
     font: 2em "Courier New", mono;
     position: fixed;
@@ -91,14 +74,14 @@ div.leftnav {
 }
 div.leftnav ul {
     list-style: none;
-    margin-top: 2em;
+    margin-top: .5em;
 }
 div.leftnav li {
     width: 1em;
     height: 1em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0.1em;
+    margin-bottom: .1em;
     line-height: 90%;
     vertical-align: text-top;
     text-align: center;
@@ -116,40 +99,17 @@ div.leftnav li a img {
     border: none;
 }
 div.leftnav li a#gotop {
-    font-size: 0.5em;
+    font-size: .5em;
     color: #999;
 }
 
 /*********************************/
-/*
-/* About
-/*
-/*********************************/
-
-div.icons ul {
-    margin-top: 1em;
-    list-style-type: none;
-}
-div.icons ul li {
-    display: inline;
-}
-div.icons ul li a img {
-    width: 2em;
-    height: 2em;
-    border: none;
-    padding: 0 1em 0 1em;
-}
-
-/*********************************/
-/*
 /* Content
-/*
 /*********************************/
-
 div.content {
     text-align: justify;
     width: 40em;
-    margin: 3em auto 2em auto;
+    margin: auto auto 2em auto;
     padding-left: 3em;
 }
 div.content p.meta {
@@ -167,8 +127,14 @@ div.content blockquote {
     padding-left: 1em;
     margin-left: 1em;
 }
-div.content h1#archive {
-    margin-bottom: 1em;
+div.content a.category {
+    color: #444;
+    text-decoration: none;
+}
+div.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 div.content ul.posts {
     list-style-type: none;
@@ -180,21 +146,16 @@ div.content ul.posts span {
     color: #999;
     font: 80% "Courier New", monospace;
 }
-div.content img.error {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-div.content a.category {
-    color: #444;
-    text-decoration: none;
-}
 
 /*********************************/
-/*
 /* Posts
-/*
 /*********************************/
+div#post {
+    margin-bottom: 2em;
+}
+div#post ul, #post ol {
+    margin-left: 1.35em;
+}
 
 /* links */
 div#post a {
@@ -211,31 +172,21 @@ div#post a:hover {
     border-bottom: #ff3399 2px solid;
 }
 
-div#post ul, #post ol {
-    margin-left: 1.35em;
-}
 div#post pre {
     border: 1px solid #ddd;
     background-color: #eef;
     padding: 0 .4em;
 }
-div#post img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /* code */
 div#post code {
     border: 1px solid #ddd;
     background-color: #eef;
     font-size: 85%;
-    padding: 0 0.2em;
+    padding: 0 .2em;
 }
 div#post pre code {
     border: none;
 }
-
 /* terminal */
 div#post pre.terminal {
     border: 1px solid #222;
@@ -247,24 +198,44 @@ div#post pre.terminal code {
 }
 
 /*********************************/
-/*
 /* Comments
-/*
 /*********************************/
-
-div#comments h2 {
-    margin-bottom: 1em;
+div#comments {
+    margin-bottom: 2em;
 }
 
 /*********************************/
-/*
-/* Footer
-/*
+/* Related Posts
 /*********************************/
+div#related {
+    margin-bottom: 2em;
+}
 
+/*********************************/
+/* About page
+/*********************************/
+div.icons ul {
+    margin-top: 1em;
+    list-style-type: none;
+}
+div.icons ul li {
+    display: inline;
+}
+div.icons ul li a img {
+    display: inline;
+    width: 2em;
+    height: 2em;
+    border: none;
+    padding: 0 1em 0 1em;
+}
+
+/*********************************/
+/* Page Footer
+/*********************************/
 footer {
     text-align: center;
     padding-bottom: 1em;
+    margin-bottom: 2em;
 }
 footer div.categories {
     font-size: 80%;

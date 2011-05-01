@@ -64,7 +64,6 @@ The group giving away the free tanks only stays alive because it is staffed by v
 - Buyer: "Stay away from my house, you freak!"
 - Bullhorn: "But..."
 - Buyer: "Can't you see that everyone is buying station wagons?"
-<br />
 
 BIT-FLINGER
 -----------
