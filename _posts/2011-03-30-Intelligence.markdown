@@ -7,7 +7,8 @@ categories: society
 
 What Is Intelligence, Anyway?
 =============================
-<p class="meta">It's been a good life ~ by Isaac Asimov</p>
+It's been a good life ~ by Isaac Asimov
+{:.meta}
 
 When I was in the army, I received the kind of aptitude test that all soldiers took and, against a normal of 100, scored 160. No one at the base had ever seen a figure like that, and for two hours they made a big fuss over me.
 

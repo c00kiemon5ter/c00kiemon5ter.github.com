@@ -12,7 +12,8 @@ I happen to share his feelings so I'm reposting this for my peace of mind.
 
 Don't forget to visit the [Manifesto][pm].
 
-<p class="meta">~ by Zed A. Shaw</p>
+~ by Zed A. Shaw
+{:.meta}
 
 I think I'm going to create the ultimate software development methodology.
 It'll be revolutionary compared to others because
@@ -62,7 +63,8 @@ has gripped the software industry these days since it's actually doing...Program
 
 P.S. If you need it to have a Japanese sounding name, then call it "*Puroguramingu, Mazaafakkaa*"
 
-<p class="meta">Talk is cheap. Show me the code -- {{ page.date | date_to_string }}</p>
+Talk is cheap. Show me the code -- {{ page.date | date_to_string }}
+{:.meta}
 
 [zas]: http://zedshaw.com/
 [sdm]: http://en.wikipedia.org/wiki/Software_development_methodology

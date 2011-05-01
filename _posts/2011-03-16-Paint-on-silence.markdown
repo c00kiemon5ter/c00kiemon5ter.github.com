@@ -8,7 +8,9 @@ update: 27 Apr 2011
 
 {{ page.title }}
 ================
-<p class="meta">last update ~ {{ page.update }}</p>
+last update ~ {{ page.update }}
+{:.meta}
+
 ..that is music. This is a list of artists I like and listen.
 It's mostly post-rock, instrumentals, ambient, some trip-hop and hip-hop
 in no particular order of preference <span style="text-decoration: line-through;">..or maybe some order</span>.
@@ -167,5 +169,6 @@ metal hardcore
 [Anasarca](http://www.myspace.com/anasarcadc)  
 [Circle takes the Square](http://ctts.bandcamp.com/)  
 
-<p class="meta">people will forget what you said, people will forget what you did,<br />
-bt people will never forget how you made them feel -- {{ page.date | date_to_string }}</p>
+people will forget what you said, people will forget what you did,  
+bt people will never forget how you made them feel -- {{ page.date | date_to_string }}
+{:.meta}

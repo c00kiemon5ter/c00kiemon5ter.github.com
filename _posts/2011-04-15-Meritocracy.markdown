@@ -111,14 +111,14 @@ about [Equality of Opportunity][eqopp], in the sense of giving everyone the same
 --> Solutions ?
 Representative Democracy | Greece | No money for politics
 
-<p class="meta">
 Until philosophers rule as kings or 
 those who are now called kings and leading men genuinely and adequately philosophise, 
 that is, until political power and philosophy entirely coincide, 
 while the many natures who at present pursue either one exclusively 
 are forcibly prevented from doing so, 
 cities will have no rest from evils, 
-..nor, I think, will the human race -- {{ page.date | date_to_string }} </p>
+..nor, I think, will the human race -- {{ page.date | date_to_string }}
+{:.meta}
 
 [Meritocracy]: http://en.wikipedia.org/wiki/Meritocracy
 [Democracy]: http://en.wikipedia.org/wiki/Democracy

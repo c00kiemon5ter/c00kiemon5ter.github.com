@@ -36,7 +36,8 @@ with little lyrics on the background (check *streetlights*). It almost feels lik
 Check them on [myspace][anaspace] and [lastfm][lastana]
 
 
-<p class="meta">~ Listening -- {{ page.date | date_to_string }}</p>
+~ Listening -- {{ page.date | date_to_string }}
+{:.meta}
 
 [angels]: http://www.allangelsgone.com/
 [silver]: http://www.myspace.com/asilvermtzion

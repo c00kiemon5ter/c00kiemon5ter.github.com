@@ -35,7 +35,8 @@ cause cookies shall prevail! (plus this world needs some more bloat)
 ![cookies][cookiebomb]
 
 
-<p class="meta">o.look.a.cookie.i.will.do.science.to.it! -- {{ page.date | date_to_string }}</p>
+o.look.a.cookie.i.will.do.science.to.it! -- {{ page.date | date_to_string }}
+{:.meta}
 
 [jekyll]: http://jekyllrb.com
 [Toto]: http://cloudhead.io/toto

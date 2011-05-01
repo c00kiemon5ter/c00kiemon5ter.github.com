@@ -25,7 +25,8 @@ categories: foo
 ================
 
 
-<p class="meta">-- {{ page.date | date_to_string }}</p>
+-- {{ page.date | date_to_string }}
+{:.meta}
 _EOF_
 
 ${EDITOR:-/usr/bin/vim} +10 "$newpost"

@@ -49,6 +49,7 @@ There is no such thing as 'normal'. It's just you and others that like different
 
 Go out today, enjoy yourself. 
 
-<p class="meta">-- {{ page.date | date_to_string }}</p>
+-- {{ page.date | date_to_string }}
+{:.meta}
 
 [work]: http://www.youtube.com/watch?v=u6XAPnuFjJc

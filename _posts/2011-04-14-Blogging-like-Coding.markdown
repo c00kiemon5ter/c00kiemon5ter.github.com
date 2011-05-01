@@ -19,12 +19,12 @@ A presentation made for Multimedia Technology class. Have fun.
 <embed id="preziEmbed_4lcsb9ok45cp" name="preziEmbed_4lcsb9ok45cp" src="http://prezi.com/bin/preziloader.swf" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="600" height="400" bgcolor="#ffffff" flashvars="prezi_id=4lcsb9ok45cp&amp;lock_to_path=0&amp;color=ffffff&amp;autoplay=no&amp;autohide_ctrls=0">
 </embed></object></p></div>
 
-<p class="meta">
 Write programs that do one thing and do it well. 
 Write programs to work together. 
 Write programs to handle text streams, 
 because that is a universal interface 
--- {{ page.date | date_to_string }}</p>
+-- {{ page.date | date_to_string }}
+{:.meta}
 
 [blc]: http://prezi.com/4lcsb9ok45cp/blogging-like-coding/ "Using jekyll as a blogging engine."
 [Prezi]: http://prezi.com/

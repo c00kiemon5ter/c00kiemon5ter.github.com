@@ -66,7 +66,8 @@ thing or two about it tomorrow.
 > just the sound alone of its humble breath.  
 > A murmur from the ruins echoes softly as the roots undo, and the branch becomes...  
 
-<p class="meta" markdown="1">~ [Circle Takes the Square][ctts] :: [Interview at the Ruins][iatr] -- {{ page.date | date_to_string }}</p>
+~ [Circle Takes the Square][ctts] :: [Interview at the Ruins][iatr] -- {{ page.date | date_to_string }}
+{:.meta}
 
 [ctts]: http://ctts.bandcamp.com
 [iatr]: http://ctts.bandcamp.com/track/interview-at-the-ruins
