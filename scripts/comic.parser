@@ -5,25 +5,25 @@ tmpdir="/tmp/comic.parser.XXXXXXXXXX"
 tmpdir="$(mktemp -d "$tmpdir")"
 output="${tmpdir}/comic.list"
 
-# url's to scan
+# URLs to scan
 website="http://www.explodingdog.com"
 webfeed="${website}/explodingdog-pictures.xml"
 blogfeed="http://explodingdog.tumblr.com/rss"
 
 # parse the website
 while read -r url title; do
-    src="$(curl -s "${website}/${url}" | sed -rn 's/.*img src="(.+)"><\/a>.*/\1/p')"
-    printf '<img src="%s" alt="comic" title="%s" />\n' "$website/$src" "$title" >> "$output"
+    url="$(curl -s "${website}/${url}" | sed -rn 's/.*img src="(.+)"><\/a>.*/\1/p')"
+    printf '%s\t%s\n' "$website/$url" "${title//$'\t'/ }" >> "$output"
 done < <(curl -s "$website" | sed -rn '/a href="title/s%<a href="(.+)">(.+)</a>.*%\1 \2%p')
 
 # parse the webfeed
 while read -r title && read -r url; do
-    printf '<img src="%s" alt="comic" title="%s" />\n' "$url" "$title" >> "$output"
+    printf '%s\t%s\n' "$url" "${title//$'\t'/ }" >> "$output"
 done < <(curl -s "$webfeed" | sed -rn "/^<p><a href=\".*\/title\/|<img src=\"/s%^<p><a href=\"$website/title.*>(.+)</a>|^<a href=\"$website/title.*<img src=\"(.+)\"></a>.*%\1\2%p")
 
 # parse the blogfeed
 while read -r url title; do
-    printf '<img src="%s" alt="comic" title="%s" />\n' "$url" "$title" >> "$output"
+    printf '%s\t%s\n' "$url" "${title//$'\t'/ }" >> "$output"
 done < <(curl -s "$blogfeed" | sed -n 'H; ${x; s/\n//g; s%<item>%\n%gp;}' | sed -rn "s%^<title>(.+)</title>.*img src=\"(.+)\"/&gt.*%\2 \1%p")
 
 # remove duplicates

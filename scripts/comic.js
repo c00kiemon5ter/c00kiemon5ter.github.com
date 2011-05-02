@@ -1,16 +1,15 @@
 var lines;
-var randnum;
-
 $(document).ready(function() {
-    $.get('/files/comic.list', function(data) {
-        lines = data.split("\n");
-        randnum = Math.floor(Math.random() * lines.length);
-        $("#comic").prepend(lines[randnum]);
-    });
+  $.get('/files/comic.list', function(data) {
+    lines = data.split('\n');
+    var imgurl = lines[Math.floor(Math.random() * lines.length)].split('\t');
+    var imgttl = imgurl[1]; imgurl = imgurl[0];
+    $("#comic").prepend($(document.createElement("img")).attr({ src: imgurl, alt: 'comic', title: imgttl}));
+  });
 });
-
 function clickComic() {
-    randnum = Math.floor(Math.random() * lines.length);
-    $("#comic img").replaceWith(lines[randnum]);
+  var imgurl = lines[Math.floor(Math.random() * lines.length)].split('\t');
+  var imgttl = imgurl[1]; imgurl = imgurl[0];
+  $("#comic img").attr({ src: imgurl, title: imgttl});
 }
-// vim: nofoldenable
+// vim: nofoldenable ts=2 sw=2
