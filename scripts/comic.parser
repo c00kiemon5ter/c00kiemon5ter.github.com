@@ -5,30 +5,64 @@ tmpdir="/tmp/comic.parser.XXXXXXXXXX"
 tmpdir="$(mktemp -d "$tmpdir")"
 output="${tmpdir}/comic.list"
 
-# URLs to scan
-website="http://www.explodingdog.com"
-webfeed="${website}/explodingdog-pictures.xml"
-blogfeed="http://explodingdog.tumblr.com/rss"
-
+# exploding dog
+# =============
 # parse the website
+expl_dog_site="http://www.explodingdog.com"
 while read -r url title; do
-    url="$(curl -s "${website}/${url}" | sed -rn 's/.*img src="(.+)"><\/a>.*/\1/p')"
-    printf '%s\t%s\n' "$website/$url" "${title//$'\t'/ }" >> "$output"
-done < <(curl -s "$website" | sed -rn '/a href="title/s%<a href="(.+)">(.+)</a>.*%\1 \2%p')
-
-# parse the webfeed
+    url="$(curl -s "${expl_dog_site}/${url}" | sed -rn 's/.*img src="(.+)"><\/a>.*/\1/p')"
+    printf '%s\t%s\t%s\n' "$expl_dog_site" "$expl_dog_site/$url" "${title//$'\t'/ }" >> "$output"
+done < <(curl -s "$expl_dog_site" | sed -rn '/a href="title/s%<a href="(.+)">(.+)</a>.*%\1 \2%p')
+# parse the feed
+expl_dog_site_feed="${expl_dog_site}/explodingdog-pictures.xml"
 while read -r title && read -r url; do
-    printf '%s\t%s\n' "$url" "${title//$'\t'/ }" >> "$output"
-done < <(curl -s "$webfeed" | sed -rn "/^<p><a href=\".*\/title\/|<img src=\"/s%^<p><a href=\"$website/title.*>(.+)</a>|^<a href=\"$website/title.*<img src=\"(.+)\"></a>.*%\1\2%p")
+    printf '%s\t%s\t%s\n' "$expl_dog_site" "$url" "${title//$'\t'/ }" >> "$output"
+done < <(curl -s "$expl_dog_site_feed" | sed -rn "/^<p><a href=\".*\/title\/|<img src=\"/s%^<p><a href=\"$expl_dog_site/title.*>(.+)</a>|^<a href=\"$expl_dog_site/title.*<img src=\"(.+)\"></a>.*%\1\2%p")
+# parse the blog
+expl_dog_blog="http://explodingdog.tumblr.com"
+expl_dog_blog_feed="${expl_dog_blog}/rss"
+curl -s "$expl_dog_blog" \
+    | sed -n 'H; ${x; s/\n//g; s%<item>%\n%gp;}' \
+    | sed -rn "s%^<title>(.+)</title>.*img src=\"(.+)\"/&gt.*%${expl_dog_blog}\t\2\t\1%p" >> "$output"
 
-# parse the blogfeed
+# dog hates me
+# ============
+# parse the website archives
+doghatesme_site="http://www.doghatesme.com"
+doghatesme_archives="$doghatesme_site/dog-hates-me/archives.html"
+while read -r url; do
+    curl -s "$url" | sed -rn "s%.*<img.*src=\"($doghatesme_site[^\"]*)\" .*%$doghatesme_site\t\1%p" >> "$output"
+done < <(curl -s "$doghatesme_archives" | sed -rn '/class="archive-list-item"/s%.*href="(.+)">.*%\1%p')
+
+# a softer world
+# ==============
+# parse the website archives
+asw_site="http://www.asofterworld.com"
+asw_archives="$asw_site/archive.php"
 while read -r url title; do
-    printf '%s\t%s\n' "$url" "${title//$'\t'/ }" >> "$output"
-done < <(curl -s "$blogfeed" | sed -n 'H; ${x; s/\n//g; s%<item>%\n%gp;}' | sed -rn "s%^<title>(.+)</title>.*img src=\"(.+)\"/&gt.*%\2 \1%p")
+    curl -s "$url" | sed -rn "/img style=/s%.*src=\"(.+)\" title=\"(.+)\" .*%$asw_site/$asw_site\t\1\t\2%p" >> "$output"
+done < <(curl -s "$asw_archives" | sed 's/<br>/\n/g' | sed -rn '/^[[:digit:]]+:/s%.*href="(.+)">(.+)</a>%\1 \2%p')
+
+# xkcd
+# ====
+# parse the website archives
+xkcd_site="http://xkcd.com"
+xkcd_archives="$xkcd_site/archive/"
+while read -r url; do
+    curl -s "$url" | sed -rn "s%<img src=\"(.+)\" title=\"(.+)\" alt.*%$xkcd_site\t\1\t\2%p" >> "$output"
+done < <(curl -s "$xkcd_archives" | sed -rn "s%^<a href=\"(/[[:digit:]]+/)\".*%$xkcd_site\1%p")
+
+# abstruse goose
+# ==============
+# parse website archives -- skipping title elements
+abs_gs_site="http://abstrusegoose.com"
+abs_gs_archives="${abs_gs_site}/archives"
+while read -r url; do
+    curl -s "$url" | sed -rn "s%.*class=\"aligncenter\".*src=\"(.+)\" alt.*%$abs_gs_site\t\1%p" >> "$output"
+done < <(curl -s "$abs_gs_archives" | sed -rn 's%^<li.*href="(.+[[:digit:]])">.*%\1%p') 
 
 # remove duplicates
 sort "$output" | uniq -i
-
 # cleanup
 rm -rf "$tmpdir"
 
