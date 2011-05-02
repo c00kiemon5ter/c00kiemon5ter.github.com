@@ -9,7 +9,8 @@ Archive
 {:.posts}
 {% endfor %}
 
-![](){:#comic alt="comic" onclick="clickComic()"}
+![loading]{:#comic alt="comic" onclick="clickComic()"}
 comic [source]
 {:.meta}
+[loading]: /images/load.gif "loading"
 [source]: http://www.explodingdog.com "exploding dog"
