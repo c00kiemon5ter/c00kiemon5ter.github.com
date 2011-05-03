@@ -11,7 +11,7 @@ I was a bit down the previous couple of days.
 I'm still not sure why, I just kinda felt alone.
 That was until I got myself a fluffy chocolate cake this morning.
 
-Here is a similar story I bumped onto tonight.
+Here is a similar [story] I bumped onto tonight.
 
 ~ by Joey Comeau
 {:.meta}
@@ -35,6 +35,7 @@ who would be the first person to wonder where you'd gone?
 
 Call them up! Maybe they want to get ice cream?
 
-or even cupcakes? [source](http://cargocollective.com/joeycomeau/#1343146/The-Cure-for-Depression)
--- {{ page.date | date_to_string }}
+or even cupcakes, or maybe coookies! -- {{ page.date | date_to_string }}
 {:.meta}
+
+[story]: http://cargocollective.com/joeycomeau/#1343146/The-Cure-for-Depression
