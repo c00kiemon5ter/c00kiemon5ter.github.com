@@ -5,8 +5,7 @@ $(function() {
   });
 });
 function clickComic() {
-  var imgttl = lines[Math.floor(Math.random()*lines.length)].split("\t");
-  var comicsrc = imgttl.shift(), imgurl = imgttl.shift();
-  $(".meta a").attr({href: comicsrc});
-  $("#comic").attr({src: imgurl, title: imgttl});
+  var image = lines[Math.floor(Math.random()*lines.length)].split("\t");
+  $(".meta a").attr({href: image.shift()});
+  $("#comic").attr({src: image.shift(), title: image});
 }
