@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-<div id="post">
+<div id="post" class="piece">
     {{ content }}
 </div>
 
 {% if page.comments %}
-<div id="comments">
-    <h2>Comments</h2>
+<div class="piece">
+    <h2 id="comments">Comments</h2>
     <div id="disqus_thread"></div>
     <script type="text/javascript" src="http://disqus.com/forums/c00kiez/embed.js"></script>
     <noscript><a href="http://c00kiez.disqus.com/?url=ref">View the discussion thread.</a></noscript>
 </div>
 {% endif %}
 
-<div id="related">
-    <h2>Possibly Related Posts</h2>
+<div class="piece">
+    <h2 id="related">Possibly Related Posts</h2>
     <ul class="posts">
         {% for post in site.related_posts limit:3 %}
         <li><span>{{ post.date | date_to_string }}</span> &#187; <a href="{{ post.url }}">{{ post.title }}</a></li>

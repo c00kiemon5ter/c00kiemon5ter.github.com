@@ -26,14 +26,6 @@ h2 {
     border-bottom: 1px solid #40C1D8;
     margin: 1em auto .5em auto;
 }
-h2:hover:after {
-    content: "¶";
-    font: 75% "Courier New", monospace;
-    color: #999;
-    padding-left: .75em;
-    position: relative;
-    top: -2px;
-}
 /* link styles */
 a:link {
     color: #003366;
@@ -55,6 +47,25 @@ div.strike {
 }
 table {
     font-size: inherit;
+}
+
+/* special global cases */
+div.piece {
+    margin-bottom: 2em;
+}
+a.anchor {
+    color: #999 !important;
+    border: none !important;
+    text-decoration: none !important;
+    font: 75% "Courier New", monospace;
+    margin-left: .75em;
+    position: relative;
+    top: -2px;
+    opacity: 0;
+}
+h2:hover a.anchor {
+    color: #999 !important;
+    opacity: 1;
 }
 
 /*********************************/
@@ -158,9 +169,6 @@ div.content ul.posts span {
 /*********************************/
 /* Posts
 /*********************************/
-div#post {
-    margin-bottom: 2em;
-}
 div#post ul, #post ol {
     margin-left: 1.35em;
 }
@@ -203,20 +211,6 @@ div#post pre.terminal {
 }
 div#post pre.terminal code {
     background-color: #444;
-}
-
-/*********************************/
-/* Comments
-/*********************************/
-div#comments {
-    margin-bottom: 2em;
-}
-
-/*********************************/
-/* Related Posts
-/*********************************/
-div#related {
-    margin-bottom: 2em;
 }
 
 /*********************************/
