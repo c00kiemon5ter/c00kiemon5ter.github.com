@@ -10,6 +10,6 @@ Archive
 {% endfor %}
 
 <script type="text/javascript" src="/scripts/comic.js"></script>
-![loading](/images/load.gif "loading"){:#comic alt="comic" onclick="clickComic()"}
+![loading](/images/load.gif "downloading"){:#comic alt="comic"}
 comic [source]()
 {:.meta}

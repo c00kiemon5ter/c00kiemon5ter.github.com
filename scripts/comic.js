@@ -2,6 +2,7 @@ var lines;
 $(function() {
   $.get('/files/comic.list', function(data) {
     lines = data.split("\n"); clickComic();
+    $('#comic').click(clickComic);
   });
 });
 function clickComic() {
