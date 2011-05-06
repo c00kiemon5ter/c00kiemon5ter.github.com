@@ -6,11 +6,16 @@ $(function() {
   });
 });
 function clickComic() {
-  $("#comic").attr({src: '/images/load.gif', title: 'loading'});
+  changeImg('/images/load.gif', 'loading');
   var line = lines[Math.floor(Math.random()*lines.length)].split("\t");
   var url = line.shift(), src = line.shift();
   $(document.createElement("img")).attr({src: src}).load(function() {
-    $("#comic").attr({src: src, title: line});
     $(".meta a").attr({href: url});
+    changeImg(src, line);
+  });
+}
+function changeImg(source, title) {
+  $("#comic").fadeOut('fast', function() {
+    $("#comic").attr({src: source, title: title}).fadeIn();
   });
 }
