@@ -36,7 +36,7 @@ Other Links
 </div>
 
 [github]: https://github.com/c00kiemon5ter "github"
-[stackoverflow]: http://stackoverflow.com/users/329407/c00kiemon5ter
+[stackoverflow]: http://stackoverflow.com/users/329407/c00kiemon5ter "stack overflow"
 [identica]: http://identi.ca/c00kiemon5ter "identi.ca"
 [linkedin]: http://gr.linkedin.com/in/c00kiemon5ter "linkedin"
 [facebook]: https://facebook.com/c00kiemon5ter "facebook"
