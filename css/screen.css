@@ -166,6 +166,10 @@ div.content ul.posts span {
     font: 80% "Courier New", monospace;
 }
 
+ul.nolist {
+    list-style-type: none;
+}
+
 /*********************************/
 /* Posts
 /*********************************/
