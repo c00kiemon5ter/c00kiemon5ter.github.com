@@ -68,6 +68,12 @@ h2:hover a.anchor {
     opacity: 1;
 }
 
+::selection {
+    background: #dc005d;
+    color:#fff;
+    text-shadow: none;
+}
+
 /*********************************/
 /* Page Header
 /*********************************/
