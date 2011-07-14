@@ -2,7 +2,7 @@
 layout: post
 title: Constants aren't, Variables won't
 comments: true
-categories: foo, code
+categories: foo code
 ---
 
 {{ page.title }}
