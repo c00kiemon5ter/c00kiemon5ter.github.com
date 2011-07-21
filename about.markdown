@@ -39,41 +39,72 @@ for those problems.
 Networks
 --------
 <div class="icons" markdown="1">
-* [![octocat](/images/octocat.png)][github]
-* [![stackoverflow](/images/so.png)][stackoverflow]
-* [![identi.ca](/images/identica.png)][identica]
-* [![linkedin](/images/linkedin.png)][linkedin]
-* [![facebook](/images/facebook.png)][facebook]
-* [![youtube](/images/youtube.png)][youtube]
-* [![lastfm](/images/lastfm.png)][lastfm]
+* [![octocat](/images/networks/octocat.png)][github]
+* [![stackoverflow](/images/networks/so.png)][stackoverflow]
+* [![identi.ca](/images/networks/identica.png)][identica]
+* [![linkedin](/images/networks/linkedin.png)][linkedin]
+* [![facebook](/images/networks/facebook.png)][facebook]
+* [![youtube](/images/networks/youtube.png)][youtube]
+* [![lastfm](/images/networks/lastfm.png)][lastfm]
 </div>
+
+  [github]: https://github.com/c00kiemon5ter "github"
+  [stackoverflow]: http://stackoverflow.com/users/329407/c00kiemon5ter "stack overflow"
+  [identica]: http://identi.ca/c00kiemon5ter "identi.ca"
+  [linkedin]: http://gr.linkedin.com/in/c00kiemon5ter "linkedin"
+  [facebook]: https://facebook.com/c00kiemon5ter "facebook"
+  [youtube]: http://youtube.com/user/c0okiemon5ter "youtube"
+  [lastfm]: http://last.fm/user/koukosNest "lastfm"
 
 Contact
 -------
 <div class="icons" markdown="1">
-* [![gmail](/images/gmail.png)][email]
-* [![gnupg](/images/gnupg.png)][pgpkey]
+* [![gmail](/images/contact/gmail.png)][email]
+* [![gnupg](/images/contact/gnupg.png)][pgpkey]
 </div>
+
+  [email]: &#109;&#x61;&#x69;&#108;&#x74;&#111;&#x3a;&#105;&#118;&#097;&#110;&#046;&#107;&#097;&#110;&#097;&#107;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109; "email"
+  [pgpkey]: /files/c00kiemon5ter.pgp "pgp key"
 
 Other Links
 -----------
 <div class="icons" markdown="1">
-* [![webwiz](/images/webwiz.png)][webwiz]
-* [![foss-aueb](/images/foss-aueb.png)][foss]
-* [![piratebox](/images/piratebox.png)][piratebox]
-* [![deaddrops](/images/deaddrops.png)][deaddrops]
+* [![webwiz](/images/other/webwiz.png)][webwiz]
+* [![foss-aueb](/images/other/foss-aueb.png)][foss]
+* [![piratebox](/images/other/piratebox.png)][piratebox]
+* [![deaddrops](/images/other/deaddrops.png)][deaddrops]
 </div>
 
-[github]: https://github.com/c00kiemon5ter "github"
-[stackoverflow]: http://stackoverflow.com/users/329407/c00kiemon5ter "stack overflow"
-[identica]: http://identi.ca/c00kiemon5ter "identi.ca"
-[linkedin]: http://gr.linkedin.com/in/c00kiemon5ter "linkedin"
-[facebook]: https://facebook.com/c00kiemon5ter "facebook"
-[youtube]: http://youtube.com/user/c0okiemon5ter "youtube"
-[lastfm]: http://last.fm/user/koukosNest "lastfm"
-[email]: &#109;&#x61;&#x69;&#108;&#x74;&#111;&#x3a;&#105;&#118;&#097;&#110;&#046;&#107;&#097;&#110;&#097;&#107;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109; "email"
-[pgpkey]: /files/c00kiemon5ter.pgp "pgp key"
-[webwiz]: http://webwizards.gr/ "web wizards"
-[foss]: http://foss.aueb.gr "foss aueb community"
-[piratebox]: http://wiki.daviddarts.com/PirateBox "piratebox"
-[deaddrops]: http://deaddrops.com/ "deaddrops"
+  [webwiz]: http://webwizards.gr/ "web wizards"
+  [foss]: http://foss.aueb.gr "foss aueb community"
+  [piratebox]: http://wiki.daviddarts.com/PirateBox "piratebox"
+  [deaddrops]: http://deaddrops.com/ "deaddrops"
+
+Comics
+------
+<div class="icons" markdown="1">
+* [![abstruse goose](/images/comics/abstrusegoose.png)][abstrusegoose]
+* [![xkcd](/images/comics/xkcd.png)][xkcd]
+* [![spiked math](/images/comics/spikedmath.png)][spikedmath]
+* [![dilbert](/images/comics/dilbert.png)][dilbert]
+* [![somethingofthatilk](/images/comics/somethingofthatilk.png)][somethingofthatilk]
+* [![explosm](/images/comics/explosm.png)][explosm]
+* [![dinosaur](/images/comics/dinosaur.png)][dinosaur]
+* [![explodingdog](/images/comics/explodingdog.png)][explodingdog]
+* [![buttersafe](/images/comics/buttersafe.png)][buttersafe]
+* [![lht](/images/comics/lht.png)][lht]
+* [![doghousediaries](/images/comics/doghousediaries.png)][doghousediaries]
+</div>
+
+  [abstrusegoose]: http://abstrusegoose.com/ "abstruse goose"
+  [xkcd]: http://xkcd.com/ "xkcd"
+  [spikedmath]: http://spikedmath.com/ "spiked math"
+  [dilbert]: http://dilbert.com/ "dilbert"
+  [somethingofthatilk]: http://www.somethingofthatilk.com "something of that ilk"
+  [explosm]: http://www.explosm.net/comics/ "explosm ~ cyanide & happiness"
+  [dinosaur]: http://www.qwantz.com "dinosaur comics"
+  [explodingdog]: http://explodingdog.tumblr.com/ "exploding dog"
+  [buttersafe]: http://buttersafe.com/ "butter safe"
+  [lht]: http://www.lefthandedtoons.com/ "left handed toons"
+  [doghousediaries]: http://www.thedoghousediaries.com/ "doghouse diaries"
+
