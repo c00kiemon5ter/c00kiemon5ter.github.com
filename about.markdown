@@ -108,3 +108,60 @@ Comics
   [lht]: http://www.lefthandedtoons.com/ "left handed toons"
   [doghousediaries]: http://www.thedoghousediaries.com/ "doghouse diaries"
 
+Blogroll
+--------
+<div class="icons" markdown="1">
+### » _coders_
+* [![Ksplice](/images/blogs/ksplice.png)][ksplice]
+* [![word aligned](/images/blogs/wordaligned.png)][wordaligned]
+* [![Strangly Consistent](/images/blogs/strangely.png)][strangely]
+* [![gbmath](/images/blogs/gbmath.png)][gbmath]
+* [![joel](/images/blogs/joel.png)][joel]
+* [![codinghorror](/images/blogs/codinghorror.png)][codinghorror]
+* [![cat-v](/images/blogs/cat-v.png)][cat-v]
+* [![catonmat](/images/blogs/catonmat.png)][catonmat]
+* [![moxie](/images/blogs/moxie.png)][moxie]
+* [![hanov](/images/blogs/hanov.png)][hanov]
+* [![rupa](/images/blogs/rupa.png)][rupa]
+* [![travis](/images/blogs/travis.png)][travis]
+* [![redcode](/images/blogs/redcode.png)][redcode]
+
+### » _greeks_
+* [![dds](/images/blogs/dds.png)][dds]
+* [![dimandr](/images/blogs/dimandr.png)][dimandr]
+* [![huku](/images/blogs/huku.png)][huku]
+* [![sock-raw](/images/blogs/sock-raw.png)][sock-raw]
+* [![karig](/images/blogs/void.png)][karig]
+* [![xorl](/images/blogs/xorl.png)][xorl]
+
+### » _other_
+* [![athensville](/images/blogs/athensville.png)][athensville]
+* [![constantine](/images/blogs/constantine.png)][constantine]
+* [![facesinplaces](/images/blogs/facesinplaces.png)][facesinplaces]
+* [![zen](/images/blogs/zen.png)][zen]
+</div>
+
+  [ksplice]: http://blog.ksplice.com/ "Ksplice"
+  [wordaligned]: http://wordaligned.org/ "Word Aligned"
+  [strangely]: http://strangelyconsistent.org/ "Strangly Consistent"
+  [gbmath]: http://scientopia.org/blogs/goodmath/ "good math - bad math"
+  [joel]: http://www.joelonsoftware.com/ "joel on software"
+  [codinghorror]: http://www.codinghorror.com/blog/ "coding horror"
+  [cat-v]: http://harmful.cat-v.org/Blog/ "cat -v"
+  [catonmat]: http://www.catonmat.net/blog/ "good coders code, great reuse"
+  [moxie]: http://thoughtcrime.org/stories.html "mox⋅ie mar⋅lin⋅spike"
+  [hanov]: http://stevehanov.ca/blog/index.php "Steve Hanov"
+  [rupa]: http://un.ix.io/ "rupa@un.ix.io ~bin/"
+  [travis]: http://combinate.us/ "Travis Vachon"
+  [redcode]: http://www.redcode.nl/ "Roy Van Rijn"
+  [dds]: http://www.spinellis.gr/blog/ "Diomidis Spinelis"
+  [dimandr]: http://code-o-matic.blogspot.com/ "Dimitris Andreou"
+  [huku]: http://dp.grhack.net/ "deceptionhat!"
+  [sock-raw]: http://sock-raw.org/ "sock-raw"
+  [karig]: http://www.void.gr/kargig/blog/ "into the void"
+  [xorl]: http://xorl.wordpress.com/ "xorl %eax, %eax"
+  [athensville]: http://athensville.blogspot.com/ "Athens Ville"
+  [constantine]: http://asunartisies.blogspot.com/ "Ασυνάρτητες Σκέψεις"
+  [facesinplaces]: http://facesinplaces.blogspot.com/ "faces in places"
+  [zen]: http://zenhabits.net/ "zen habits"
+
