@@ -229,6 +229,7 @@ div#post pre.terminal code {
 div.icons ul {
     margin-top: 1em;
     list-style-type: none;
+    text-align: left;
 }
 div.icons ul li {
     display: inline;
