@@ -10,9 +10,7 @@ Coder and fan of [Hammock-driven Development][hdd]
 > Step away from the Computer<br />
 > A bad design with a complete test suite is still a bad design
 
-  [hdd]: http://blip.tv/clojure/hammock-driven-development-4475586
-
-Have you read your SICP today ?
+Have you read your [SICP] today ?
 
 > I think that it's extraordinarily important that we in computer science keep
 > fun in computing. When it started out, it was an awful lot of fun. Of course,
@@ -35,6 +33,8 @@ I like simplicity, silence, cookies, ice-cream, the beach.
 I like problems, and I like thinking and working out solutions
 for those problems.
 
+  [hdd]: http://blip.tv/clojure/hammock-driven-development-4475586
+  [SICP]: http://mitpress.mit.edu/sicp/
 
 Networks
 --------
