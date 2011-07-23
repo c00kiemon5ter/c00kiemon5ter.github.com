@@ -2,7 +2,7 @@
 layout: post
 title: Book Wishlist
 comments: true
-categories: foo society
+categories: foo
 ---
 
 {{ page.title }}
