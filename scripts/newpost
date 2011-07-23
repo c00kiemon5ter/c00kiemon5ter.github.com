@@ -17,7 +17,7 @@ cat << _EOF_ > "$newpost"
 ---
 layout: post
 title: ${1//-/ }
-comments: false
+comments: true
 categories: foo
 ---
 
