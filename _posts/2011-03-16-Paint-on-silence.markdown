@@ -3,12 +3,12 @@ layout: post
 title: Paint on silence
 categories: music
 comments: true
-update: 07 July 2011
+update: 2011-08-12
 ---
 
 {{ page.title }}
 ================
-last update ~ {{ page.update }}
+last update ~ {{ page.update | date_to_string }}
 {:.meta}
 
 ..that is music. This is a list of artists I like and listen.
@@ -100,6 +100,7 @@ post-rock
 * [Последние Каникулы (Last Holiday)](http://www.myspace.com/posledniekanikuly)
 * [kwoon](http://www.myspace.com/kwoonmusic)
 * [We Own the Sky](http://www.myspace.com/weowntheskygr)
+* [MindThings](http://music.mindthings.net/)
 {:.nolist}
 
 trip-hop
@@ -127,6 +128,7 @@ electronic
 * [Trentemoller](http://www.myspace.com/trentemoeller)
 * [Daft Punk](http://www.myspace.com/daftpunk)
 * [Faithless](http://www.myspace.com/faithless)
+* [Module Module](http://modulemodule.com/Module_Module/Audio.html)
 {:.nolist}
 
 hip-hop
