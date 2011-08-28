@@ -163,13 +163,14 @@ hip-hop
 
 rock
 ----
+* [coffeeend](http://www.myspace.com/coffeeend)
+* [Vodka Juniors](http://www.darkpoetry.gr/lyrix.php)
 * [The xx](http://www.myspace.com/thexx)
 * [Madrugada](http://www.myspace.com/wearemadrugada)
 * [Nick Cave](http://www.myspace.com/nickcaveandthebadseeds)
 * [Bright Eyes](http://www.myspace.com/brighteyes)
 * [Red Hot Chilly Peppers](http://www.myspace.com/redhotchilipeppers)
 * [Deleyaman](http://www.myspace.com/deleyaman)
-* [coffeeend](http://www.myspace.com/coffeeend)
 * [Playground Noise](http://www.myspace.com/playgroundnoise)
 * [Coldplay](http://www.myspace.com/coldplay)
 * [REM](http://www.myspace.com/rem)
