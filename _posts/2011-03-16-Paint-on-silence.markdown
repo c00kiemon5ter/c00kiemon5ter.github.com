@@ -3,7 +3,7 @@ layout: post
 title: Paint on silence
 categories: music
 comments: true
-update: 2011-08-12
+update: 2011-08-28
 ---
 
 {{ page.title }}
@@ -24,6 +24,9 @@ post-rock
 * [Mogwai](http://www.myspace.com/mogwai)
 * [Godspeed You! Black Emperor](http://www.myspace.com/gybeconstellation)
 * [The Silver mt Zion](http://www.myspace.com/asilvermtzion)
+* [Esmerine](http://www.esmerine.com/listen/)
+* [Set Fire to Flames](http://www.myspace.com/setfiretoflames1)
+* [Fifths of Seven](http://www.myspace.com/fifthsofseven)
 * [As the stars fall](http://asthestarsfall.bandcamp.com/)
 * [65daysofstatic](http://www.myspace.com/65propaganda)
 * [All Angels Gone](http://www.myspace.com/allangelsgone)
@@ -115,6 +118,7 @@ trip-hop
 * [Massive Attack](http://www.myspace.com/massiveattack)
 * [Bonobo](http://www.myspace.com/sibonobo)
 * [Saltillo](http://www.myspace.com/saltillo)
+* [Veteran Snares](http://www.myspace.com/venetiansnares)
 {:.nolist}
 
 electronic
