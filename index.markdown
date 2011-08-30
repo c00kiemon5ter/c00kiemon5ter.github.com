@@ -20,5 +20,5 @@ Projects
 
 <script type="text/javascript" src="/scripts/comic.js"></script>
 ![loading](/images/load.gif "downloading"){:#comic alt="comic"}
-comic [source]()
+click it ↑ comic [source]()
 {:.meta}
