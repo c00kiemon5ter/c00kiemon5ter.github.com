@@ -10,6 +10,8 @@ cats:
       url: /society/
     - id: code
       url: /code/
+    - id: philosophy
+      url: /philosophy/
 ---
 Archive :: categories {#archive}
 =====================
