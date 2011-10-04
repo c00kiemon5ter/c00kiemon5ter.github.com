@@ -46,6 +46,7 @@ Networks
 * [![facebook](/images/networks/facebook.png)][facebook]
 * [![youtube](/images/networks/youtube.png)][youtube]
 * [![lastfm](/images/networks/lastfm.png)][lastfm]
+* [![stereomood](/images/networks/stereomood.png)][stereomood]
 </div>
 
   [github]: https://github.com/c00kiemon5ter "github"
@@ -55,6 +56,7 @@ Networks
   [facebook]: https://facebook.com/c00kiemon5ter "facebook"
   [youtube]: http://youtube.com/user/c0okiemon5ter "youtube"
   [lastfm]: http://last.fm/user/koukosNest "lastfm"
+  [stereomood]: http://stereomood.com/users/profile/c00kiemon5ter "stereomood"
 
 Contact
 -------
