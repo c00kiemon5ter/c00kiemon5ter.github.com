@@ -43,7 +43,6 @@ Networks
 * [![stackoverflow](/images/networks/so.png)][stackoverflow]
 * [![identi.ca](/images/networks/identica.png)][identica]
 * [![linkedin](/images/networks/linkedin.png)][linkedin]
-* [![facebook](/images/networks/facebook.png)][facebook]
 * [![youtube](/images/networks/youtube.png)][youtube]
 * [![lastfm](/images/networks/lastfm.png)][lastfm]
 * [![stereomood](/images/networks/stereomood.png)][stereomood]
@@ -53,7 +52,6 @@ Networks
   [stackoverflow]: http://stackoverflow.com/users/329407/c00kiemon5ter "stack overflow"
   [identica]: http://identi.ca/c00kiemon5ter "identi.ca"
   [linkedin]: http://gr.linkedin.com/in/c00kiemon5ter "linkedin"
-  [facebook]: https://facebook.com/c00kiemon5ter "facebook"
   [youtube]: http://youtube.com/user/c0okiemon5ter "youtube"
   [lastfm]: http://last.fm/user/koukosNest "lastfm"
   [stereomood]: http://stereomood.com/users/profile/c00kiemon5ter "stereomood"
