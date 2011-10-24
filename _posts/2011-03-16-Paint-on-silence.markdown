@@ -3,7 +3,7 @@ layout: post
 title: Paint on silence
 categories: music
 comments: true
-update: 2011-10-24
+update: 2011-10-25
 ---
 
 {{ page.title }}
@@ -70,7 +70,6 @@ post-rock
 * [Yndi Halda](http://www.myspace.com/yndihalda)
 * [This is your Captain Speaking](http://www.myspace.com/tiycs)
 * [Message to Bears](http://messagetobears.bandcamp.com/)
-* [You slut!](http://youslut.bandcamp.com)
 * [you.may.die.in.the.desert](http://youmaydieinthedesert.bandcamp.com/)
 * [July Skies](http://www.myspace.com/julyskies)
 * [Mum](http://www.myspace.com/mumtheband)
@@ -146,6 +145,7 @@ hip-hop
 * [Dj Shadow](http://www.myspace.com/djshadow)
 * [Gnarls Barkley](http://www.myspace.com/gnarlsbarkley)
 * [Gorillaz](http://www.myspace.com/gorillaz)
+* [Buck 65](http://www.myspace.com/buck65)
 {:.nolist}
 
 rock
