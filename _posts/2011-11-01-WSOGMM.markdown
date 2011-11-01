@@ -1,0 +1,32 @@
+---
+layout: post
+title: Whole Sort of General Mish Mash
+comments: true
+categories: foo philosophy
+---
+
+{{ page.title }}
+================
+The Whole Sort of General Mish Mash (WSOGMM) is the sum total of all the
+different ways that exists of looking at things, or more specifically, all the
+different probabilities that exist through which you could look at things.
+
+One could imagine the term as, the sum total of all the parallel universes, which
+aren't parallel, and furthermore are not, strictly speaking, universes either.
+
+This is easier to understand, if you try to realize that, everything you have
+realized until up to this moment is not true.
+
+The reason that universes are not universes is that any given universe is not a
+thing as such, but rather just a way of looking at the WSOGMM. The reason they
+are not parallel is the same reason the sea is not parallel. You can slice the
+WSOGMM any way you like and you will generally come up with something that
+someone will call home.
+
+The Whole Sort of General Mish Mash, one could say, should be viewed as a plate
+of pie, or as a large tank of water. You could slice it and divide it up any way
+you'd like, and you'll almost always find a way of looking at things somewhere
+in probability (eg. a parallel universe) that somebody will find familiar.
+
+Time is an illusion. Lunchtime doubly so -- {{ page.date | date_to_string }}
+{:.meta}
