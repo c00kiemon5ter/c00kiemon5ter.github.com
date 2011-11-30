@@ -199,28 +199,25 @@ div#post a:hover {
 }
 
 div#post pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
-}
-/* code */
-div#post code {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    font-size: 85%;
-    padding: 0 .2em;
+    background-color: #ddd;
+    font-family: Monaco, "Envy Code R", "Courier New", monospace;
+    font-size: 110%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 5px;
+    overflow: auto;
+    word-wrap: normal;
 }
 div#post pre code {
-    border: none;
-}
-/* terminal */
-div#post pre.terminal {
-    border: 1px solid #222;
+    display: block;
     background-color: #444;
-    color: white;
-}
-div#post pre.terminal code {
-    background-color: #444;
+    color: #dcdcdc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 5px;
+    overflow-x: auto;
 }
 
 /*********************************/
