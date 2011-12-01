@@ -2202,79 +2202,81 @@ Windows logo. But under Linux you get a long telegram printed in stark white
 letters on a black screen. There is no "welcome!" message. Most of the telegram
 has the semi-inscrutable menace of graffiti tags.
 
-> Dec 14 15:04:15 theRev syslogd 1.3-3#17: restart.
-> Dec 14 15:04:15 theRev kernel: klogd 1.3-3, log source = /proc/kmsg started.
-> Dec 14 15:04:15 theRev kernel: Loaded 3535 symbols from /System.map.
-> Dec 14 15:04:15 theRev kernel: Symbols match kernel version 2.0.30.
-> Dec 14 15:04:15 theRev kernel: No module symbols loaded.
-> Dec 14 15:04:15 theRev kernel: Intel MultiProcessor Specification v1.4
-> Dec 14 15:04:15 theRev kernel: Virtual Wire compatibility mode.
-> Dec 14 15:04:15 theRev kernel: OEM ID: INTEL Product ID: 440FX APIC at: 0xFEE00000
-> Dec 14 15:04:15 theRev kernel: Processor #0 Pentium(tm) Pro APIC version 17
-> Dec 14 15:04:15 theRev kernel: Processor #1 Pentium(tm) Pro APIC version 17
-> Dec 14 15:04:15 theRev kernel: I/O APIC #2 Version 17 at 0xFEC00000.
-> Dec 14 15:04:15 theRev kernel: Processors: 2
-> Dec 14 15:04:15 theRev kernel: Console: 16 point font, 400 scans
-> Dec 14 15:04:15 theRev kernel: Console: colour VGA+ 80x25, 1 virtual console (max 63)
-> Dec 14 15:04:15 theRev kernel: pcibios_init : BIOS32 Service Directory structure at 0x000fdb70
-> Dec 14 15:04:15 theRev kernel: pcibios_init : BIOS32 Service Directory entry at 0xfdb80
-> Dec 14 15:04:15 theRev kernel: pcibios_init : PCI BIOS revision 2.10 entry at 0xfdba1
-> Dec 14 15:04:15 theRev kernel: Probing PCI hardware.
-> Dec 14 15:04:15 theRev kernel: Warning : Unknown PCI device (10b7:9001). Please read include/linux/pci.h
-> Dec 14 15:04:15 theRev kernel: Calibrating delay loop.. ok - 179.40 BogoMIPS
-> Dec 14 15:04:15 theRev kernel: Memory: 64268k/66556k available (700k kernel code, 384k reserved, 1204k data)
-> Dec 14 15:04:15 theRev kernel: Swansea University Computer Society NET3.035 for Linux 2.0
-> Dec 14 15:04:15 theRev kernel: NET3: Unix domain sockets 0.13 for Linux NET3.035.
-> Dec 14 15:04:15 theRev kernel: Swansea University Computer Society TCP/IP for NET3.034
-> Dec 14 15:04:15 theRev kernel: IP Protocols: ICMP, UDP, TCP
-> Dec 14 15:04:15 theRev kernel: Checking 386/387 coupling... Ok, fpu using exception 16 error reporting.
-> Dec 14 15:04:15 theRev kernel: Checking 'hlt' instruction... Ok.
-> Dec 14 15:04:15 theRev kernel: Linux version 2.0.30 (root@theRev) (gcc version 2.7.2.1) #15 Fri Mar 27 16:37:24 PST 1998
-> Dec 14 15:04:15 theRev kernel: Booting processor 1 stack 00002000: Calibrating delay loop.. ok - 179.40 BogoMIPS
-> Dec 14 15:04:15 theRev kernel: Total of 2 processors activated (358.81 BogoMIPS).
-> Dec 14 15:04:15 theRev kernel: Serial driver version 4.13 with no serial options enabled
-> Dec 14 15:04:15 theRev kernel: tty00 at 0x03f8 (irq = 4) is a 16550A
-> Dec 14 15:04:15 theRev kernel: tty01 at 0x02f8 (irq = 3) is a 16550A
-> Dec 14 15:04:15 theRev kernel: lp1 at 0x0378, (polling)
-> Dec 14 15:04:15 theRev kernel: PS/2 auxiliary pointing device detected -- driver installed.
-> Dec 14 15:04:15 theRev kernel: Real Time Clock Driver v1.07
-> Dec 14 15:04:15 theRev kernel: loop: registered device at major 7
-> Dec 14 15:04:15 theRev kernel: ide: i82371 PIIX (Triton) on PCI bus 0 function 57
-> Dec 14 15:04:15 theRev kernel: ide0: BM-DMA at 0xffa0-0xffa7
-> Dec 14 15:04:15 theRev kernel: ide1: BM-DMA at 0xffa8-0xffaf
-> Dec 14 15:04:15 theRev kernel: hda: Conner Peripherals 1275MB - CFS1275A, 1219MB w/64kB Cache, LBA, CHS=619/64/63
-> Dec 14 15:04:15 theRev kernel: hdb: Maxtor 84320A5, 4119MB w/256kB Cache, LBA, CHS=8928/15/63, DMA
-> Dec 14 15:04:15 theRev kernel: hdc: , ATAPI CDROM drive
-> Dec 15 11:58:06 theRev kernel: ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
-> Dec 15 11:58:06 theRev kernel: ide1 at 0x170-0x177,0x376 on irq 15
-> Dec 15 11:58:06 theRev kernel: Floppy drive(s): fd0 is 1.44M
-> Dec 15 11:58:06 theRev kernel: Started kswapd v 1.4.2.2
-> Dec 15 11:58:06 theRev kernel: FDC 0 is a National Semiconductor PC87306
-> Dec 15 11:58:06 theRev kernel: md driver 0.35 MAX_MD_DEV=4, MAX_REAL=8
-> Dec 15 11:58:06 theRev kernel: PPP: version 2.2.0 (dynamic channel allocation)
-> Dec 15 11:58:06 theRev kernel: TCP compression code copyright 1989 Regents of the University of California
-> Dec 15 11:58:06 theRev kernel: PPP Dynamic channel allocation code copyright 1995 Caldera, Inc.
-> Dec 15 11:58:06 theRev kernel: PPP line discipline registered.
-> Dec 15 11:58:06 theRev kernel: SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256).
-> Dec 15 11:58:06 theRev kernel: eth0: 3Com 3c900 Boomerang 10Mbps/Combo at 0xef00, 00:60:08:a4:3c:db, IRQ 10
-> Dec 15 11:58:06 theRev kernel: 8K word-wide RAM 3:5 Rx:Tx split, 10base2 interface.
-> Dec 15 11:58:06 theRev kernel: Enabling bus-master transmits and whole-frame receives.
-> Dec 15 11:58:06 theRev kernel: 3c59x.c:v0.49 1/2/98 Donald Becker http://cesdis.gsfc.nasa.gov/linux/drivers/vortex.html
-> Dec 15 11:58:06 theRev kernel: Partition check:
-> Dec 15 11:58:06 theRev kernel: hda: hda1 hda2 hda3
-> Dec 15 11:58:06 theRev kernel: hdb: hdb1 hdb2
-> Dec 15 11:58:06 theRev kernel: VFS: Mounted root (ext2 filesystem) readonly.
-> Dec 15 11:58:06 theRev kernel: Adding Swap: 16124k swap-space (priority -1)
-> Dec 15 11:58:06 theRev kernel: EXT2-fs warning: maximal mount count reached, running e2fsck is recommended
-> Dec 15 11:58:06 theRev kernel: hdc: media changed
-> Dec 15 11:58:06 theRev kernel: ISO9660 Extensions: RRIP_1991A
-> Dec 15 11:58:07 theRev syslogd 1.3-3#17: restart.
-> Dec 15 11:58:09 theRev diald[87]: Unable to open options file /etc/diald/diald.options: No such file or directory
-> Dec 15 11:58:09 theRev diald[87]: No device specified. You must have at least one device!
-> Dec 15 11:58:09 theRev diald[87]: You must define a connector script (option 'connect').
-> Dec 15 11:58:09 theRev diald[87]: You must define the remote ip address.
-> Dec 15 11:58:09 theRev diald[87]: You must define the local ip address.
-> Dec 15 11:58:09 theRev diald[87]: Terminating due to damaged reconfigure.
+~~~
+Dec 14 15:04:15 theRev syslogd 1.3-3#17: restart.
+Dec 14 15:04:15 theRev kernel: klogd 1.3-3, log source = /proc/kmsg started.
+Dec 14 15:04:15 theRev kernel: Loaded 3535 symbols from /System.map.
+Dec 14 15:04:15 theRev kernel: Symbols match kernel version 2.0.30.
+Dec 14 15:04:15 theRev kernel: No module symbols loaded.
+Dec 14 15:04:15 theRev kernel: Intel MultiProcessor Specification v1.4
+Dec 14 15:04:15 theRev kernel: Virtual Wire compatibility mode.
+Dec 14 15:04:15 theRev kernel: OEM ID: INTEL Product ID: 440FX APIC at: 0xFEE00000
+Dec 14 15:04:15 theRev kernel: Processor #0 Pentium(tm) Pro APIC version 17
+Dec 14 15:04:15 theRev kernel: Processor #1 Pentium(tm) Pro APIC version 17
+Dec 14 15:04:15 theRev kernel: I/O APIC #2 Version 17 at 0xFEC00000.
+Dec 14 15:04:15 theRev kernel: Processors: 2
+Dec 14 15:04:15 theRev kernel: Console: 16 point font, 400 scans
+Dec 14 15:04:15 theRev kernel: Console: colour VGA+ 80x25, 1 virtual console (max 63)
+Dec 14 15:04:15 theRev kernel: pcibios_init : BIOS32 Service Directory structure at 0x000fdb70
+Dec 14 15:04:15 theRev kernel: pcibios_init : BIOS32 Service Directory entry at 0xfdb80
+Dec 14 15:04:15 theRev kernel: pcibios_init : PCI BIOS revision 2.10 entry at 0xfdba1
+Dec 14 15:04:15 theRev kernel: Probing PCI hardware.
+Dec 14 15:04:15 theRev kernel: Warning : Unknown PCI device (10b7:9001). Please read include/linux/pci.h
+Dec 14 15:04:15 theRev kernel: Calibrating delay loop.. ok - 179.40 BogoMIPS
+Dec 14 15:04:15 theRev kernel: Memory: 64268k/66556k available (700k kernel code, 384k reserved, 1204k data)
+Dec 14 15:04:15 theRev kernel: Swansea University Computer Society NET3.035 for Linux 2.0
+Dec 14 15:04:15 theRev kernel: NET3: Unix domain sockets 0.13 for Linux NET3.035.
+Dec 14 15:04:15 theRev kernel: Swansea University Computer Society TCP/IP for NET3.034
+Dec 14 15:04:15 theRev kernel: IP Protocols: ICMP, UDP, TCP
+Dec 14 15:04:15 theRev kernel: Checking 386/387 coupling... Ok, fpu using exception 16 error reporting.
+Dec 14 15:04:15 theRev kernel: Checking 'hlt' instruction... Ok.
+Dec 14 15:04:15 theRev kernel: Linux version 2.0.30 (root@theRev) (gcc version 2.7.2.1) #15 Fri Mar 27 16:37:24 PST 1998
+Dec 14 15:04:15 theRev kernel: Booting processor 1 stack 00002000: Calibrating delay loop.. ok - 179.40 BogoMIPS
+Dec 14 15:04:15 theRev kernel: Total of 2 processors activated (358.81 BogoMIPS).
+Dec 14 15:04:15 theRev kernel: Serial driver version 4.13 with no serial options enabled
+Dec 14 15:04:15 theRev kernel: tty00 at 0x03f8 (irq = 4) is a 16550A
+Dec 14 15:04:15 theRev kernel: tty01 at 0x02f8 (irq = 3) is a 16550A
+Dec 14 15:04:15 theRev kernel: lp1 at 0x0378, (polling)
+Dec 14 15:04:15 theRev kernel: PS/2 auxiliary pointing device detected -- driver installed.
+Dec 14 15:04:15 theRev kernel: Real Time Clock Driver v1.07
+Dec 14 15:04:15 theRev kernel: loop: registered device at major 7
+Dec 14 15:04:15 theRev kernel: ide: i82371 PIIX (Triton) on PCI bus 0 function 57
+Dec 14 15:04:15 theRev kernel: ide0: BM-DMA at 0xffa0-0xffa7
+Dec 14 15:04:15 theRev kernel: ide1: BM-DMA at 0xffa8-0xffaf
+Dec 14 15:04:15 theRev kernel: hda: Conner Peripherals 1275MB - CFS1275A, 1219MB w/64kB Cache, LBA, CHS=619/64/63
+Dec 14 15:04:15 theRev kernel: hdb: Maxtor 84320A5, 4119MB w/256kB Cache, LBA, CHS=8928/15/63, DMA
+Dec 14 15:04:15 theRev kernel: hdc: , ATAPI CDROM drive
+Dec 15 11:58:06 theRev kernel: ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+Dec 15 11:58:06 theRev kernel: ide1 at 0x170-0x177,0x376 on irq 15
+Dec 15 11:58:06 theRev kernel: Floppy drive(s): fd0 is 1.44M
+Dec 15 11:58:06 theRev kernel: Started kswapd v 1.4.2.2
+Dec 15 11:58:06 theRev kernel: FDC 0 is a National Semiconductor PC87306
+Dec 15 11:58:06 theRev kernel: md driver 0.35 MAX_MD_DEV=4, MAX_REAL=8
+Dec 15 11:58:06 theRev kernel: PPP: version 2.2.0 (dynamic channel allocation)
+Dec 15 11:58:06 theRev kernel: TCP compression code copyright 1989 Regents of the University of California
+Dec 15 11:58:06 theRev kernel: PPP Dynamic channel allocation code copyright 1995 Caldera, Inc.
+Dec 15 11:58:06 theRev kernel: PPP line discipline registered.
+Dec 15 11:58:06 theRev kernel: SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256).
+Dec 15 11:58:06 theRev kernel: eth0: 3Com 3c900 Boomerang 10Mbps/Combo at 0xef00, 00:60:08:a4:3c:db, IRQ 10
+Dec 15 11:58:06 theRev kernel: 8K word-wide RAM 3:5 Rx:Tx split, 10base2 interface.
+Dec 15 11:58:06 theRev kernel: Enabling bus-master transmits and whole-frame receives.
+Dec 15 11:58:06 theRev kernel: 3c59x.c:v0.49 1/2/98 Donald Becker http://cesdis.gsfc.nasa.gov/linux/drivers/vortex.html
+Dec 15 11:58:06 theRev kernel: Partition check:
+Dec 15 11:58:06 theRev kernel: hda: hda1 hda2 hda3
+Dec 15 11:58:06 theRev kernel: hdb: hdb1 hdb2
+Dec 15 11:58:06 theRev kernel: VFS: Mounted root (ext2 filesystem) readonly.
+Dec 15 11:58:06 theRev kernel: Adding Swap: 16124k swap-space (priority -1)
+Dec 15 11:58:06 theRev kernel: EXT2-fs warning: maximal mount count reached, running e2fsck is recommended
+Dec 15 11:58:06 theRev kernel: hdc: media changed
+Dec 15 11:58:06 theRev kernel: ISO9660 Extensions: RRIP_1991A
+Dec 15 11:58:07 theRev syslogd 1.3-3#17: restart.
+Dec 15 11:58:09 theRev diald[87]: Unable to open options file /etc/diald/diald.options: No such file or directory
+Dec 15 11:58:09 theRev diald[87]: No device specified. You must have at least one device!
+Dec 15 11:58:09 theRev diald[87]: You must define a connector script (option 'connect').
+Dec 15 11:58:09 theRev diald[87]: You must define the remote ip address.
+Dec 15 11:58:09 theRev diald[87]: You must define the local ip address.
+Dec 15 11:58:09 theRev diald[87]: Terminating due to damaged reconfigure.
+~~~
 
 The only parts of this that are readable, for normal people, are the error
 messages and warnings. And yet it's noteworthy that Linux doesn't stop, or
