@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    background: url('/images/stripesbg.png') fixed;
+    background: url('/images/bg.png') fixed;
     text-align: center;
 }
 p {
