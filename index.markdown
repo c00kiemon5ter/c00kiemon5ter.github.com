@@ -11,6 +11,8 @@ Archive
 
 Projects
 --------
+* &#187; [tsoukalas][tsk]
+* &#187; [monsterwm][mwm]
 * &#187; [WebWizards][ww]
 * &#187; [Fractal Image Compression][fic]
 * &#187; [World of Wumpus A.I. game][ww]
@@ -24,6 +26,8 @@ Projects
 * &#187; [personal dotfiles collection][dot]
 {:.posts}
 
+  [tsk]: http://c00kiemon5ter.github.com/tsoukalas
+  [mwm]: https://github.com/c00kiemon5ter/monsterwm
   [ww]: http://c00kiemon5ter.github.com/WebWizards/
   [fic]: http://c00kiemon5ter.github.com/Fractal-Image-Compression
   [wumpus]: https://github.com/c00kiemon5ter/WorldOfWumpus
