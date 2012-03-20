@@ -26,9 +26,9 @@ Projects
 * &#187; [personal dotfiles collection][dot]
 {:.posts}
 
-  [tsk]: http://c00kiemon5ter.github.com/tsoukalas
+  [tsk]: http://tsoukalas.net
   [mwm]: https://github.com/c00kiemon5ter/monsterwm
-  [ww]: http://c00kiemon5ter.github.com/WebWizards/
+  [ww]: http://webwizards.github.com/WebWizards/
   [fic]: http://c00kiemon5ter.github.com/Fractal-Image-Compression
   [wumpus]: https://github.com/c00kiemon5ter/WorldOfWumpus
   [othello]: https://github.com/c00kiemon5ter/Othello
