@@ -142,6 +142,9 @@ div.content p.meta {
     font-style: italic;
     border-bottom: 1px solid #999;
 }
+div.content p#pcomic {
+    font-size: small;
+}
 div.content blockquote {
     color: #666;
     text-align: justify;

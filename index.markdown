@@ -2,6 +2,11 @@
 layout: default
 title: c00kiemon5ter's masterplan
 ---
+
+{:.meta #pcomic}
+![loading](/images/load.gif "downloading"){:#comic alt="comic"}
+click it ↑ comic [source]()
+
 Archive
 =======
 {% for post in site.posts %}
@@ -52,7 +57,5 @@ Projects
   [script]: https://github.com/c00kiemon5ter/scripts
   [dot]: https://github.com/c00kiemon5ter/dotfiles
 
-click it ↓ comic [source]()
-{:.meta}
 <script type="text/javascript" src="/scripts/comic.js"></script>
-![loading](/images/load.gif "downloading"){:#comic alt="comic"}
+
