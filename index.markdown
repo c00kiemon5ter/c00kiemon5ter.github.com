@@ -3,7 +3,7 @@ layout: default
 title: c00kiemon5ter's masterplan
 ---
 
-{:.meta #pcomic}
+{:.meta .small}
 ![loading](/images/load.gif "downloading"){:#comic alt="comic"}
 click it ↑ comic [source]()
 
@@ -56,6 +56,15 @@ Projects
   [zipf]: http://c00kiemon5ter.github.com/zipf/
   [script]: https://github.com/c00kiemon5ter/scripts
   [dot]: https://github.com/c00kiemon5ter/dotfiles
+
+
+{:.meta .small}
+Write programs that do one thing and do it well.
+Write programs to work together.
+Write programs to handle text streams,
+because that is a universal interface.
+oh, and crap the shit out of Intelectual Property.
+k.thnx.meow `>:3`
 
 <script type="text/javascript" src="/scripts/comic.js"></script>
 

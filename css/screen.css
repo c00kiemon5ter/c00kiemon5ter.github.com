@@ -142,7 +142,7 @@ div.content p.meta {
     font-style: italic;
     border-bottom: 1px solid #999;
 }
-div.content p#pcomic {
+div.content p.small {
     font-size: small;
 }
 div.content blockquote {
@@ -199,6 +199,13 @@ div#post a:visited {
 }
 div#post a:hover {
     border-bottom: #ff3399 2px solid;
+}
+
+div.content code {
+    font-family: Monaco, "Envy Code R", "Courier New", monospace;
+    font-style: normal;
+    color: #222;
+    padding-left: .5em;
 }
 
 div#post pre {
