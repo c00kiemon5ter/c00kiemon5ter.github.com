@@ -19,9 +19,9 @@ Projects
 
 ### Linux
 * &#187; [monsterwm][mwm] - a tiny dynamic tiling window manager for the X11 window environment
-* &#187; [pancakes][pnck] - a simple IRC bot and logger writen in pure bash
-* &#187; [PKGBIULDs][pkg] - a collection of packages I maintain and cotribute for ArchLinux
-* &#187; [varius everyday-use scripts][script]
+* &#187; [pancakes][pnck] - a simple IRC bot and logger written in pure bash
+* &#187; [PKGBUILDs][pkg] - a collection of packages I maintain and contribute for ArchLinux
+* &#187; [various everyday-use scripts][script]
 * &#187; [personal dotfiles collection][dot]
 {:.posts}
 
@@ -63,7 +63,7 @@ Write programs that do one thing and do it well.
 Write programs to work together.
 Write programs to handle text streams,
 because that is a universal interface.
-oh, and crap the shit out of Intelectual Property.
+oh, and crap the shit out of Intellectual Property.
 k.thnx.meow `>:3`
 
 <script type="text/javascript" src="/scripts/comic.js"></script>
